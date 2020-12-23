@@ -6,6 +6,7 @@
 
  - [Requierments](requirements.md)
  - [Plugin installation](plugin-installation.md)
+ - [Plugin configuration](plugin-configuration.md)
 
 - Testing
  - [Simulated order](simulated-order.md)
