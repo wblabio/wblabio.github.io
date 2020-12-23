@@ -2,10 +2,9 @@
 
 <!-- docs/_sidebar.md -->
 
-* [Home](/)
-
 - Setup
 
+ - [Requierments](requirements.md)
  - [Plugin installation](plugin-installation.md)
 
 - Testing
