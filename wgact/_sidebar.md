@@ -9,6 +9,8 @@
  - [Plugin configuration](plugin-configuration.md)
 
 - Testing
- - [Simulated order](simulated-order.md)
-* [FAQ](faq.md)
+ - [Simulate an order](simulated-order.md)
+ - [Google Tag Assistant](google-tag-assistant.md)
+
+- [Troubleshooting](troubleshooting.md)
 

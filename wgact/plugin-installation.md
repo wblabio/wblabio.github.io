@@ -1,4 +1,4 @@
-## Plugin installation
+### Plugin installation
 
 1. Upload the plugin into your plugins directory /wp-content/plugins/
 2. Activate the plugin through the ‘Plugins’ menu in WordPress

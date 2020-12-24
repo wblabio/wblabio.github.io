@@ -22,3 +22,13 @@ Offsite payment gateways need to be configured properly in order to redirect to 
 
 1. They need to be configured properly in order for the conversion tracking to work  (redirect to the purchase confirmation page).
 2. Buyers may stop the redirect to the purchase confirmation page during the checkout. In that case the purchase confirmation will not be tracked. 
+
+## Caching 
+
+!> Turn off caching for all cart and checkout pages.
+
+You will need to make sure that the cart and chekcout pages are excluded from caching. Otherwise conversion tracking won't work. 
+
+## Minification
+
+!> We have found that some caching and minification plugins alter the conversion code and break the conversion tracking. Make sure to disable those when you run into troubles. 
