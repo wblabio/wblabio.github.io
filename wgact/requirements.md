@@ -12,7 +12,7 @@ We won't provide support for old versions of WooCommerce, WordPress or PHP.
 
 ## Payment gateways
 
-The plugin is 100% compatible with all payment gateways that redirect properly to the payment confirmation page after a purchase. 
+?> The plugin is 100% compatible with all payment gateways that redirect properly to the payment confirmation page after a purchase. 
 
 That is generally the case for onsite payment gateways. 
 
@@ -31,4 +31,4 @@ You will need to make sure that the cart and chekcout pages are excluded from ca
 
 ## Minification
 
-!> We have found that some caching and minification plugins alter the conversion code and break the conversion tracking. Make sure to disable those when you run into troubles. 
+!> We have found that some caching and minification plugins alter the conversion code and break the conversion tracking. Make sure to disable those first when you run into troubles. 
