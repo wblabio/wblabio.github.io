@@ -14,3 +14,4 @@
 
 - [Troubleshooting](troubleshooting.md)
 
+- [FAQ](faq.md)
