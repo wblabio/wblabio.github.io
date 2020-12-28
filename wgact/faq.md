@@ -1,4 +1,4 @@
-### What is the new "opt in" feature on your plugin? Opt in to what?
+### What is the new "opt in" feature in your plugin? Opt in to what?
 
 We started to collect telemetry from users who are willing to share some data with us, like WooCommerce, WordPress and PHP versions, or the shop language:
 
