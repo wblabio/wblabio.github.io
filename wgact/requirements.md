@@ -8,7 +8,15 @@ In order for this plugin to work properly a few requirements need to be met. The
 
 There is some backward compatibility, but if things break you will need to  make sure that you're running the most current versions of WooCommerce, WordPress and PHP. 
 
-We won't provide support for old versions of WooCommerce, WordPress or PHP.
+We won't provide support for old versions of WooCommerce, WordPress or PHP. 
+
+The minimum requirement for WordPress and WooCommerce are as follows:
+
+[WordPress minimum requirements](https://wordpress.org/about/requirements/)
+
+[WooCommerce minimum requirements](https://docs.woocommerce.com/document/server-requirements/)
+
+
 
 ## Payment gateways
 
