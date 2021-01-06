@@ -15,3 +15,5 @@
 - [Troubleshooting](troubleshooting.md)
 
 - [FAQ](faq.md)
+
+<!-- - [Pro features](pro-features.md) -->
