@@ -22,7 +22,7 @@ There's a number of reasons.
 2. The conversion window of Google Ads is typically 30 days (can be customized). That means Google Ads only counts conversions of clicks that happened during that time. 
 3. If you compare Google Ads to Google Analytics, you also will not see the same numbers, as both have a different standard approach on measuring conversions: https://support.google.com/analytics/answer/2679221
 
-### What if a user refreshes the the thankyou page multiple times does it recount? How do you handle duplication?
+### What if a user refreshes the the thankyou page multiple times, does it recount? How do you handle duplication?
 
 We also transmit the transaction id to Google Ads. This helps Google Ads to deduplicate all conversions that have been transmitted more than once. 
 
