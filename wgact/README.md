@@ -1,10 +1,10 @@
 ## WooCommerce Google Ads Conversion Tracking Plugin 
 
-> This is the documentation for the WooCommerce Google Ads Conversion Tracking Plugin
+This is the documentation for the WooCommerce Google Ads Conversion Tracking Plugin
 
 ## What this plugin does
 
-The plugin automatically injects the Google Ads conversion pixel on the purchase confirmation page, adding the dynamic order values like order value, transaction id and currency.
+> The plugin automatically injects the Google Ads conversion pixel on the purchase confirmation page, adding the dynamic order values like order value, transaction id and currency.
 
 ## Features
 
