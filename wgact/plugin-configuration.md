@@ -45,7 +45,7 @@
   ![Google Ads conversion settings](_media/google-ads-conversion-settings.png)
   </details>
 
-## Cofigure the plugin
+## Configure the plugin
 
 1. Get the conversion id and label
 
