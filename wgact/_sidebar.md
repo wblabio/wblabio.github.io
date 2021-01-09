@@ -6,7 +6,9 @@
 
  - [Requierments](requirements.md)
  - [Plugin installation](plugin-installation.md)
- - [Plugin configuration](plugin-configuration.md)
+ - Plugin configuration
+  - [Main Settings](plugin-configuration.md)
+  - [Dynamic Remraketing](dynamic-remarketing.md)
 
 - Testing
  - [Simulate an order](simulated-order.md)

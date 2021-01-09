@@ -2,7 +2,7 @@
 
 ## Create a new conversion in Google Ads
 
-?> You can skip this step, if you've already created a purchase conversion in Google Ads
+?> Skip this step, if you've already created a purchase conversion in Google Ads
 
 1. Open Conversions in Google Ads
 
