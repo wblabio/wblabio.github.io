@@ -8,7 +8,7 @@ This is the documentation for the WooCommerce Google Ads Conversion Tracking Plu
 
 ## Features
 
-- Adds the transaction id for automatic order deduplication
+- Automatic order deduplication
 - Works with many cookie consent management systems out of the box
 - Excludes admins and shop managers from tracking
 - Excludes orders with failed payments
@@ -21,4 +21,5 @@ This is the documentation for the WooCommerce Google Ads Conversion Tracking Plu
 ## Beta Features
 
 - Measure cart data (tracks all order items individually)
+- Dynamic Remarketing
 
