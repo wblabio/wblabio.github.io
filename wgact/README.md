@@ -4,7 +4,7 @@ This is the documentation for the WooCommerce Google Ads Conversion Tracking Plu
 
 ## What this plugin does
 
-> This plugin tracks the value of WooCommerce orders and collects data for dynamic remarketing lists in Google Ads. With this you can optimize all your Google Ads campaigns to achieve maximum efficiency.
+> This plugin tracks the value of WooCommerce orders and collects data for dynamic remarketing lists in Google Ads. With this data you can optimize all your Google Ads campaigns to achieve maximum efficiency.
 
 ## Features
 
