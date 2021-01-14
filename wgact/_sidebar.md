@@ -18,4 +18,5 @@
 
 - [FAQ](faq.md)
 
+- [Script Blockers](script-blockers.md)
 <!-- - [Pro features](pro-features.md) -->
