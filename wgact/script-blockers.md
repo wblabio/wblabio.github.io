@@ -1,6 +1,6 @@
 ## Script Blockers
 
-> Script blockers can cause issues when using the plugin in the backend. As as consequence the settings page can appear broken.
+> Script blockers can cause issues when using the plugin in the back end. As as consequence the settings page can appear broken.
 
 Everyone who is reading this article knows that our plugin's purpose is to track visitors and their actions on a WooCommerce shop. In order to achieve this our plugin injects tracking pixels provided by popular advertising platforms like Google or Facebook. 
 
