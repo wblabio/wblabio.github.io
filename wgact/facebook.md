@@ -5,7 +5,7 @@
 event                     | implemented  | ecommerce | WooCommerce
 ---                       | ---          | ---       | ---
 **Add payment info**      | ❌             | ✔️         | ✔️
-**Add to cart**           | ❌             | ✔️         | ✔️
+**Add to cart**           | ✔️             | ✔️         | ✔️
 **Add to wishlist**       | ❌           | ✔️         | ❌ 
 **Complete registration** | ❌             |           |
 **Contact**               | ❌             |           |
@@ -14,10 +14,10 @@ event                     | implemented  | ecommerce | WooCommerce
 **Find location**         | ❌             |           |
 **Initiate checkout**     | ❌             | ✔️         |
 **Lead**                  | ❌             |           |
-**Purchase**              | ❌             | ✔️         | ✔️
+**Purchase**              | ✔️             | ✔️         | ✔️
 **Schedule**              | ❌             |           |
 **Search**                | ❌             | ✔️         | ✔️
 **Start trial**           | ❌             |           |
 **Submit application**    | ❌             |           |
 **Subscribe**             | ❌             |           |
-**View content**          | ❌             | ✔️         | ✔️
+**View content**          | ✔️             | ✔️         | ✔️
