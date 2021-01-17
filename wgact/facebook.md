@@ -2,7 +2,7 @@
 
 ### Implemented events
 
-event                      | ecommerce | WooCommerce | implemented 
+Facebook event            | ecommerce | WooCommerce | implemented 
 ---                       | ---        | ---         | ---
 **Add payment info**      | ✔️          | ✔️           | ❌
 **Add to cart**           | ✔️          | ✔️           | ✔️
