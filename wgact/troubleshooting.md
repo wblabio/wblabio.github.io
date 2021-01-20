@@ -10,4 +10,7 @@ Alternativly you can sent a request to [support@wolfundbaer.ch](mailto:support@w
  ![Copy the debug info](_media/copy-debug-info.png)
  </details>
 
- 
+ ### The most common issues in case something doesn't seem to work
+
+ - Caching: If you run some caching layer, the server might still serve cached versions of the pages. You will need to delete the cache.
+ - Minification and combination: Some minification and combination plugins mangle up the injected JavaScript code to an extend, that the tracking pixels stop working. You will need to turn minification and combination off and try again. 
