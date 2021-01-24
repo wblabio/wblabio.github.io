@@ -6,9 +6,11 @@
 
  - [Requierments](requirements.md)
  - [Plugin installation](plugin-installation.md)
- - Plugin configuration
-  - [Main Settings](plugin-configuration.md)
-  - [Dynamic Remraketing](dynamic-remarketing.md)
+- Plugin configuration
+ - [Google Ads](pixels/google-ads.md)
+ - [Facebook](pixels/facebook.md)
+ - [Hotjar](pixels/hotjar.md)
+
 
 - Testing
  - [Simulate an order](simulated-order.md)

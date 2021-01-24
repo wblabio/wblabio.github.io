@@ -1,6 +1,6 @@
-## Microsoft Advertising (Bing Ads)
+# Microsoft Advertising (Bing Ads)
 
-### Setting up the UET tag
+## Setting up the UET tag
 
 ?> You can skip this step, if you already have an UET tag. We only need one active UET tag.
 
@@ -20,7 +20,7 @@
 
 
 
-### 2. Setting up the purchase conversion
+## 2. Setting up the purchase conversion
 
 ?> We will set up a new purchase conversion goal, using a purchase **event**. It is different in the way, that we don't use a destination URL (like in most setup guides), but by using a purchase event. It is much less error prone and works equally well. 
 
