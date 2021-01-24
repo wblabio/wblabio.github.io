@@ -1,4 +1,4 @@
-## Hotjar
+# Hotjar
 
 ### Hotjar site ID
 
