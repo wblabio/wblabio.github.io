@@ -18,7 +18,7 @@ Alternativly you can sent a request to [support@wolfundbaer.ch](mailto:support@w
 
 ### WP Rocket JavaScript concatenation
 
-!> For users who have checked their tracking and believe all works just fine with WP Rocket JavaScript concatenation enabled, we will make the warning dismissible with the next version of this plugin. 
+!> For users who have checked their tracking and believe all works just fine with WP Rocket JavaScript concatenation enabled, the warning is now dismissible with version 1.8.7 of the plugin. 
 
 We received numerous reports where the WP Rocket JavaScript concatenation function has broken the pixel output of our plugin. In the attempt to optimize JavaScripts, WP Rocket changes the code to an extent that the tracking pixels won't work anymore. 
  
