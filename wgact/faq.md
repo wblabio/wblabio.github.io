@@ -40,7 +40,7 @@ Unfortunately there is no way for us to generally approve our scripts in all blo
 
 Therefore we recommend admins of the shop to exclude their own shop from the blocker in their browser.
 
-## When I open the plugin settings, I do see a warning flashing that goes away after half a second or so. What is this?
+## When I open the plugin settings, I see a warning flashing that goes away after half a second or so. What is this?
 
 In rare cases scripts, that we use to render the settings page, get blocked. We use those scripts to make the interface faster and more useful. Without those scripts, the settings page would look horrible. And the reason why those scripts sometimes get blocked are ad-and script-blockers that have been installed in the browser of some of the users. [Learn more](https://docs.woopt.com/wgact/#/script-blockers)
 
