@@ -39,3 +39,13 @@ Our plugin injects tracking pixels on the front end of WooCommerce shops. As a c
 Unfortunately there is no way for us to generally approve our scripts in all blockers for the WooCommerce back end.
 
 Therefore we recommend admins of the shop to exclude their own shop from the blocker in their browser.
+
+## When I open the plugin settings, I do see a warning flashing that goes away after half a second or so. What is this?
+
+In rare cases scripts, that we use to render the settings page, get blocked. We use those scripts to make the interface faster and more useful. Without those scripts, the settings page would look horrible. And the reason why those scripts sometimes get blocked are ad-and script-blockers that have been installed in the browser of some of the users. [Learn more](https://docs.woopt.com/wgact/#/script-blockers)
+
+The warning that you see is only intended to be seen by those people who have an active script-blocker. The only way I have come up with yet, to detect if a script blocker is running, is the following:
+
+In the first step I output the warning into the HTML source of **everyone** who is accessing the page. And then, in second step, I hide the warning with a script. **This second step will only work for users who have no script blocker running.** It is the savest way to be sure that the warning will be seen for users with script blockers. But this method has a downside. If the server is a bit slow, the scripts for  people who **don't have a script blocker running** get loaded slow and therfore it takes half a second or so, until the warning gets hidden. 
+
+If this happens to you, you can safely ignore the warning, since it means that no script blocker is running and all is rendered correctly. 
