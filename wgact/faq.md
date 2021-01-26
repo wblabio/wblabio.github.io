@@ -46,6 +46,6 @@ In rare cases scripts, that we use to render the settings page, get blocked. We 
 
 The warning that you see is only intended to be seen by those people who have an active script-blocker. The only way I have come up with yet, to detect if a script blocker is running, is the following:
 
-In the first step I output the warning into the HTML source of **everyone** who is accessing the page. And then, in second step, I hide the warning with a script. **This second step will only work for users who have no script blocker running.** It is the safest way to be sure that the warning will be seen for users with script blockers. But this method has a downside. If the server is a bit slow, the scripts for  people who **don't have a script blocker running** get loaded slow and therfore it takes half a second or so, until the warning gets hidden. 
+In the first step I output the warning into the HTML source of **everyone** who is accessing the page. And then, in second step, I hide the warning with a script. **This second step will only work for users who have no script blocker running.** It is the safest way to be sure that the warning will be seen by users with script blockers. But this method has a downside. If the server is a bit slow, the scripts for  people who **don't have a script blocker running** get loaded slow and therfore it takes half a second or so, until the warning gets hidden. 
 
 If this happens to you, you can safely ignore the warning, since it means that no script blocker is running and all is rendered correctly. 
