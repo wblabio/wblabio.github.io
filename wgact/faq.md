@@ -46,6 +46,17 @@ In rare cases scripts, that we use to render the settings page, get blocked. We 
 
 The warning that you see is only intended to be seen by those people who have an active script-blocker. The only way I have come up with yet, to detect if a script blocker is running, is the following:
 
-In the first step I output the warning into the HTML source of **everyone** who is accessing the page. And then, in second step, I hide the warning with a script. **This second step will only work for users who have no script blocker running.** It is the safest way to be sure that the warning will be seen by users with script blockers. But this method has a downside. If the server is a bit slow, the scripts for  people who **don't have a script blocker running** get loaded slow and therfore it takes half a second or so, until the warning gets hidden. 
+In the first step I output the warning into the HTML source of **everyone** who is accessing the page. And then, in second step, I hide the warning with a script. **This second step will only work for users who have no script blocker running.** It is the safest way to be sure that the warning will be seen by users with script blockers. But this method has a downside. If the server is a bit slow, the scripts for  people who don't have a script blocker running get loaded slow and therfore it takes half a second or so, until the warning gets hidden. 
 
 If this happens to you, you can safely ignore the warning, since it means that no script blocker is running and all is rendered correctly. 
+
+## In the Google audience manager I see the warning `ecomm_prodid never received`. Why?
+
+The plugin uses the newest version of the Google Ads dynamic data tracking code, which doesn't use the `ecomm_prodid` variable anymore. This variable was replaced with the `view_item` and `items` variables. [Google specifications](https://support.google.com/google-ads/answer/7305793)
+
+If you see the warning, this could have several causes. 
+
+- You have't set up the plugin correctly yet. You will need to enable dynamic remarketing within the plugin. Only then that tracking code will be injected. 
+- You made the switch from the old to the new tracking code just recently. In that case, Google will need a few days before it picks up the new variables and removes the warning. 
+
+If the warning doesn't go away, please reach out to us and aks for support.
