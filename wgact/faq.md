@@ -57,6 +57,12 @@ The plugin uses the newest version of the Google Ads dynamic data tracking code,
 If you see the warning, this could have several causes. 
 
 - You have't set up the plugin correctly yet. You will need to enable dynamic remarketing within the plugin. Only then that tracking code will be injected. 
-- You made the switch from the old to the new tracking code just recently. In that case, Google will need a few days before it picks up the new variables and removes the warning. 
+- You made the switch from the old to the new tracking code just recently. In that case, Google will need a few days before it picks up the new variables and removes the warning.
+- Google Ads simply reporting a false warning. Look at the following example:
+ <details>
+ <summary>image (Click to expand)</summary>
+
+ ![Google Ads wrong audience tracking warning 1](_media/google-ads-wrong-audience-tracking-warning-1.png)
+ </details>
 
 If the warning doesn't go away, please reach out to us and aks for support.
