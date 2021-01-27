@@ -50,7 +50,7 @@ In the first step I output the warning into the HTML source of **everyone** who 
 
 If this happens to you, you can safely ignore the warning, since it means that no script blocker is running and all is rendered correctly. 
 
-## In the Google audience manager I see the warning `ecomm_prodid never received`. Why?
+## In the Google Ads audience manager I see the warning `ecomm_prodid never received`. Why?
 
 The plugin uses the newest version of the Google Ads dynamic data tracking code, which doesn't use the `ecomm_prodid` variable anymore. This variable was replaced with the `view_item` and `items` variables. [Google specifications](https://support.google.com/google-ads/answer/7305793)
 
