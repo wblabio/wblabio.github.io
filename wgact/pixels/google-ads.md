@@ -47,7 +47,7 @@
 
 ## Configure the plugin
 
-1. Get the conversion id and label
+1. Get the conversion id and conversion label
 
  Open the purchase conversion in Google Ads.
 
