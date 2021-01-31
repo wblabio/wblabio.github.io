@@ -12,7 +12,7 @@ This is a two step process:
 
 `add_filter( 'wgact_cookie_prevention', '__return_true' );`
 
-- Add a marketing cookie for Google Ads pixels to Borlabs Cookie as follows: 
+- Add a marketing cookie for woopt Pixel Manager to Borlabs Cookie as follows: 
 
 ![Borlabs 1](../_media/borlabs-1.png)
 
