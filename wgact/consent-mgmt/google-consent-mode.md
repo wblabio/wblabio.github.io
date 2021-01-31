@@ -1,5 +1,7 @@
 # Google Consent Mode
 
+!> Be careful with this function. It will lower your measurement accuracy in order to increase visitor privacy. Everything down to conversion tracking will be impaired. If you want to test conversion tracking it is best to disable Google consent mode.
+
 ## default settings
 
 ?> When enabled the default settings will be set to the maximum data privacy settings for all regions. Additional code allows consent management tools (like [cookiebot](https://www.cookiebot.com/en/google-consent-mode/)) to override settings according to visitor choice, and cookieless conversion tracking for Google Ads. 
