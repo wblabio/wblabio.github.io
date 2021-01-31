@@ -66,3 +66,6 @@ If you see the warning, this could have several causes.
  </details>
 
 If the warning doesn't go away, please reach out to us and aks for support.
+
+## Google Tag Assistant reports Multiple installations of Global site tag (gtag.js) detected
+
