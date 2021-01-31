@@ -22,9 +22,9 @@
 
 ## 2. Setting up the purchase conversion
 
-?> We will set up a new purchase conversion goal, using a purchase **event**. It is different in the way, that we don't use a destination URL (like in most setup guides), but by using a purchase event. It is much less error prone and works equally well. 
+> We will set up a new purchase conversion goal, using a purchase **event**. It is different in the way, that we don't use a destination URL (like in most setup guides), but by using a purchase event. It is much less error prone and works equally well. 
 
-1. In the menue click -> Tools -> Conversion tracking -> Conversion goals.
+1. In the menu click -> Tools -> Conversion tracking -> Conversion goals.
 2. Click -> Create conversion goal.
 3. Give it a meaningful name like `purchase` and choose `event` as type. 
 

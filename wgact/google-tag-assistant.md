@@ -1,6 +1,6 @@
 ### Test with Google Tag Assistant
 
-?> Install Google Tag Assistant from here [Google Tag Assistant Extension](https://chrome.google.com/webstore/detail/tag-assistant-by-google/kejbdjndbnbjgmefkgdddjlbokphdefk)
+> Install Google Tag Assistant from here [Google Tag Assistant Extension](https://chrome.google.com/webstore/detail/tag-assistant-by-google/kejbdjndbnbjgmefkgdddjlbokphdefk)
 
 1. Head over to the support section of our plugin
 2. Look at the debug info window and copy the "Last order URL"
@@ -30,4 +30,4 @@
  ![Google Tag Assistant check conversion tag](_media/google-tag-assistant-check-conversion-tag.png)
  </details>
 
-!> Checking the conversion tag this way will only confirm that the tag fires correctly and that data is transmitted to Google. But, if you haven't set the correct conversion id and label, the conversion will never reach your Google Ads account. Make sure to set the correct conversion id and label too.
+?> Checking the conversion tag this way will only confirm that the tag fires correctly and that data is transmitted to Google. But, if you haven't set the correct conversion id and label, the conversion will never reach your Google Ads account. Make sure to set the correct conversion id and label too.

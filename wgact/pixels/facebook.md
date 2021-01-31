@@ -2,7 +2,7 @@
 
 ## Find the pixel ID
 
-Follow this guide by Facbook [Create and install a Facebook pixel](https://www.facebook.com/business/help/952192354843755?id=1205376682832142)
+Follow this guide by Facebook [Create and install a Facebook pixel](https://www.facebook.com/business/help/952192354843755?id=1205376682832142)
 
 ## Implemented events
 

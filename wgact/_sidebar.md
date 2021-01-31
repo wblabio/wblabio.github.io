@@ -4,13 +4,14 @@
 
 - Setup
 
- - [Requierments](requirements.md)
+ - [Requirements](requirements.md)
  - [Plugin installation](plugin-installation.md)
 - Plugin configuration
  - [Google Ads](pixels/google-ads.md)
  - [Facebook](pixels/facebook.md)
  - [Hotjar](pixels/hotjar.md)
 
+- [Shop](shop.md)
 
 - Testing
  - [Test order](test-order.md)

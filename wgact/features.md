@@ -30,9 +30,10 @@ Features                                         | free | pro
 **Basic order deduplication**                    | ✔️    | ✔️
 **Advanced order deduplication**                 |      | ✔️
 **cookiebot settings for Google consent mode**   |      | ✔️
-**Choice of order total caclulation**            | ✔️    | ✔️
+**Choice of order total calculation**            | ✔️    | ✔️
 **Localized by professional translators**        | ✔️    | ✔️
 **Environment checks**                           | ✔️    | ✔️
+**Ignore orders where the payment  failed**      | ✔️    | ✔️
 
 
 

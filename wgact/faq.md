@@ -52,11 +52,11 @@ If this happens to you, you can safely ignore the warning, since it means that n
 
 ## In the Google Ads audience manager I see the warning `ecomm_prodid never received`. Why?
 
-The plugin uses the newest version of the Google Ads dynamic data tracking code, which doesn't use the `ecomm_prodid` parameter anymore. This parameter was replaced with the `view_item` and `items` parameters. [Google specifications](https://support.google.com/google-ads/answer/7305793)
+> The plugin uses the newest version of the Google Ads dynamic data tracking code, which doesn't use the `ecomm_prodid` parameter anymore. This parameter was replaced with the `view_item` and `items` parameters. [Google specifications](https://support.google.com/google-ads/answer/7305793)
 
 If you see the warning, this could have several causes. 
 
-- You have't set up the plugin correctly yet. You will need to enable dynamic remarketing within the plugin. Only then that tracking code will be injected. 
+- You haven't set up the plugin correctly yet. You will need to enable dynamic remarketing within the plugin. Only then that tracking code will be injected. 
 - You made the switch from the old to the new tracking code just recently. In that case, Google will need a few days before it picks up the new parameters and removes the warning.
 - Google Ads reporting a false warning. The report shows, that a parameter is missing, but in fact it is being transmitted and received by Google Ads. Look at the following example:
  <details>

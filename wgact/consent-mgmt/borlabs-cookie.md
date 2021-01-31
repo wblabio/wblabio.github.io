@@ -22,4 +22,4 @@ This is a two step process:
 
 ![Borlabs 4](../_media/borlabs-4.png)
 
-Now your shop is ready. Only in case the visitor has given consent to that marketing cookie, it will be injected by our plugins.
+Now your shop is ready. Only in case the visitor has given consent to that marketing cookie, it will be injected by our plugin.

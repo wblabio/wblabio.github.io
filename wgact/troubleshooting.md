@@ -2,7 +2,7 @@
 
 Please post your problem in the WordPress support forum for this plugin: [Support forum](https://wordpress.org/support/plugin/woocommerce-google-adwords-conversion-tracking-tag)
 
-Alternativly you can sent a request to [support@wolfundbaer.ch](mailto:support@wolfundbaer.ch). If you do, please copy and paste the debug info from our plugin and attach it to the email. 
+Alternatively you can sent a request to [support@wolfundbaer.ch](mailto:support@wolfundbaer.ch). If you do, please copy and paste the debug info from our plugin and attach it to the email. 
 
 <details>
 <summary>image (Click to expand)</summary>
