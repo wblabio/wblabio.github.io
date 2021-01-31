@@ -13,7 +13,7 @@
 
 
 - Testing
- - [Simulate an order](simulated-order.md)
+ - [Test order](test-order.md)
  - [Google Tag Assistant](google-tag-assistant.md)
 
 - [Troubleshooting](troubleshooting.md)
