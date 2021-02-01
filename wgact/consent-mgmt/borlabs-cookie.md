@@ -6,6 +6,8 @@
 
 ?> The following procedure explains how to set up our plugin and Borlabs Cookie in order to only fire the conversion pixels in case explicit consent has been given by the visitor. 
 
+!> Make sure to disable Script Blocker settings in Borlabs
+
 This is a two step process:
 
 - Disable the pixel injection by default by adding the following code to your function.php file in your child theme: 
