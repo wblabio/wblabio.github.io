@@ -2,6 +2,8 @@
 
 <!-- docs/_sidebar.md -->
 
+- [About](README.md)
+
 - Setup
 
  - [Requirements](requirements.md)

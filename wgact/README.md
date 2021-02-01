@@ -6,6 +6,13 @@ This is the documentation for the WooCommerce Google Ads Conversion Tracking Plu
 
 > This plugin tracks the value of WooCommerce orders and collects data for dynamic remarketing lists in Google Ads. With this data you can optimize all your Google Ads campaigns to achieve maximum efficiency.
 
+## Goals
+
+- Maximum data precision and accuracy
+- Simple setup for novice users
+- All the settings that advanced performance marketers need
+- Implement all privacy features that every pixel offers
+
 ## Features
 
 - Automatic order deduplication

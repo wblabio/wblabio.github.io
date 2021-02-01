@@ -2,11 +2,13 @@
 
 > The order deduplication logic uses several methods to prevent orders to be double counted. Without that logic Google Analytics, Facebook and other pixels often would count the same order twice. 
 
-This is more common than expected. In average revenue reports can get inflated by 10% to 20%, in certain cases even much more. This is not within tolerable limits. Therefore the plugin comes with some smart methods to prevent purchase conversion cookies to be fired more than once. 
+This is more common than expected. In average revenue reports can become inflated by 10% to 20%, in rarer cases even much more. This is not within tolerable limits. Therefore we implemented a few smart methods to prevent purchase conversion pixels to be fired more than once. 
 
-?> Basic order deduplication relies on cookie and browser storage based deduplication. When a conversion is fired, that conversion is saved within the same browser. If the visitor reloads the page, or revisits the page after a while, the pixel manager prevents the conversion pixels to be fired again.
+?> Basic order deduplication uses cookies and the browser storage to detect if a browser tries to send the same conversion more than once. When a conversion is fired, that conversion is saved within the same browser. If the visitor reloads the page, or revisits the page after a while, the pixel manager prevents the conversion pixels to be fired again. This method alone brings the inflated revenue down to 2% - 4%. 
 
-?> Advanced order deduplication (pro version only) adds another layer of 
+Much better, right? We can do even more!
+
+?> Advanced order deduplication (which is available for pro users only) adds one more layer of deduplication. Once the browser based deduplication has run, we also store that event in the WooCommerce oder database. No matter on which device the purchase confirmation is re-opened, this method will prevent the conversion to be fired ever again.  
 
 ### Ignore failed orders
 

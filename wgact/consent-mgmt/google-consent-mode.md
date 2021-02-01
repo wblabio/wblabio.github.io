@@ -20,4 +20,4 @@ gtag('set', 'ads_data_redaction', true);
 gtag('set', 'url_passthrough', true);
 ```
 
-?> Head over to the Google consent mode information [here](https://support.google.com/google-ads/answer/10000067) or [here](https://support.google.com/analytics/answer/9976101) and the developer documentation [here](https://developers.google.com/gtagjs/devguide/consent) to learn more. 
+> Head over to the Google consent mode information [here](https://support.google.com/google-ads/answer/10000067) or [here](https://support.google.com/analytics/answer/9976101) and the developer documentation [here](https://developers.google.com/gtagjs/devguide/consent) to learn more. 
