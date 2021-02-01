@@ -67,5 +67,11 @@ If you see the warning, this could have several causes.
 
 If the warning doesn't go away, please reach out to us and aks for support.
 
-## Google Tag Assistant reports Multiple installations of Global site tag (gtag.js) detected
+## Google Tag Assistant reports multiple installations of Global site tag (gtag.js) detected. What shall I do?
 
+?> This warning is of very low severity. It can be safely ignored.
+
+There are two main reasons, why this warning pops up. 
+
+- You have activated more than one Google service, such as Google Ads and Google Analytics. During initialization gtag.js is downloaded once and then configured for each service. Google Tag Assistant detects this as two separate gtag.js installations, but it should not. It is safe to ignore that warning. 
+- Some other plugin also injects a gtag source file into the HTML output of the page. As a consequence, the gtag namespace will be declared two times. Technically this is no problem, as they both initialize exactly the same namespace. So one just overwrites the other. Therefore it is safe to ignore that warning. 
