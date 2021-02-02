@@ -20,7 +20,7 @@ public function filter_conversion_value( $order_total, $order ) {
     // If you wish to override this and calculate the value from scratch, 
     // the filter also provides the order object with the raw order values.
 
-    // Example: The average cost to prepare an order for shipping is 10% of the order value
+    // Example: The average cost to prepare an order for shipping is 10% of the order value.
     // Therefore we remove 10% of the order value on each order.
 
     return $order_total * 0.9;
