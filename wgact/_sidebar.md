@@ -23,5 +23,7 @@
 
 - [FAQ](faq.md)
 
+- [Developers](developers.md)
+
 <!-- - [Script Blockers](script-blockers.md) -->
 <!-- - [Pro features](pro-features.md) -->
