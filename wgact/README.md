@@ -15,7 +15,7 @@ This is the documentation for the WooCommerce Google Ads Conversion Tracking Plu
 
 ## Features
 
-- Automatic order deduplication
+- Basic order deduplication
 - Works with many cookie consent management systems out of the box
 - Excludes admins and shop managers from tracking
 - Excludes orders with failed payments
@@ -23,7 +23,10 @@ This is the documentation for the WooCommerce Google Ads Conversion Tracking Plu
 ## Advanced Features
 
 - Choose how to calculate the order total logic (with or without taxes and shipping)
-- Enable / disable gtag injection
+- More pixels (Microsoft Advertising, Twitter, Pinterest)
+- Google Consent Mode
+- Additional Google dynamic remarketing verticals (custom, education, hotels and rentals, etc.)
+- Advanced order deduplication
 
 ## Beta Features
 
