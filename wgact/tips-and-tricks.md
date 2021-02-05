@@ -10,8 +10,5 @@ In order to be able to track traffic and conversions within all accounts, there 
 
 [Create a Google Ads manager account](https://support.google.com/google-ads/answer/7459399)
 
-2. Add more conversion pixels to the output of the plugin with the following code. 
+2. Add more conversion pixels to the output of the plugin with the code [here](/developers?id=additional-google-ads-conversion-pixels). 
 
-<!-- [LABEL](https://gist.github.com/alewolf/d49a788da470de69dc9c6bc60fbef352 ':include :type=code') -->
-
-[Add conversion identifiers to the Google Ads pixel output](https://gist.githubusercontent.com/alewolf/d49a788da470de69dc9c6bc60fbef352/raw/wgact_google_ads_conversion_identifiers.php ':include :type=code')

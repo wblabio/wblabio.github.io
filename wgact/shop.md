@@ -2,7 +2,7 @@
 
 > The order deduplication logic uses several methods to prevent orders to be double counted. Without that logic Google Analytics, Facebook and other pixels often would count the same order twice. 
 
-This is more common than expected. In average revenue reports can become inflated by 10% to 20%, in rarer cases even much more. This is not within tolerable limits. Therefore we implemented a few smart methods to prevent purchase conversion pixels to be fired more than once. 
+Order duplication is more common than expected. In average revenue reports can become inflated by 10% to 20%, sometimes even much more. This is not within tolerable limits. Therefore we implemented a few smart methods to prevent purchase conversion pixels to be fired more than once. 
 
 ?> Basic order deduplication uses cookies and the browser storage to detect if a browser tries to send the same conversion more than once. When a conversion is fired, that conversion is saved within the same browser. If the visitor reloads the page, or revisits the page after a while, the pixel manager prevents the conversion pixels to be fired again. This method alone brings the inflated revenue down to 2% - 4%. 
 
@@ -16,4 +16,4 @@ The pixel manager detects orders with failed payments and doesn't fire the conve
 
 ### Ignore orders from admins and shop managers
 
-When admins and shop managers place orders, in almost every case this happens because they placed test orders. Usually we don't want to count test orders as a conversion. If you are sure you want a conversion for a test order to be counted, please follow the [test order procedure](test-order.md)
+When admins and shop managers place orders, in almost every case, this happens because they want to test orders. Usually we don't want to count test orders as a conversion. If you are sure you want a conversion for a test order to be counted, please follow the [test order procedure](test-order.md) and turn off order deduplication in the plugin settings. 
