@@ -430,7 +430,6 @@
 
 = 1.0 =
 
-* New: Translation into Serbian by Adrijana Nikolic from http://webhostinggeeks.com
 * Update: Release of version 1.0!
 
 = 0.2.4 =
@@ -487,7 +486,7 @@
 
 = 0.1.2 =
 
-* Disabled the check if WooCommerce is running. The check doesn't work properly with multisite WP installations, though the plugin does work with the multisite feature turned on. 
+* Disabled the check if WooCommerce is running. The check doesn't work properly with multisite WP installations, though the plugin does work with the multisite feature turned on.
 * Added more description in the code to explain why I've build a workaround to not place the tracking code into the thankyou template of WC.
 
 = 0.1.1 =
