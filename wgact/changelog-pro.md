@@ -4,6 +4,7 @@
 
 * Tweak: Make the <noptimize> tag only appear if Autoptimize is active
 * Tweak: Removed a duplicate filter
+* Fix: Moved get_cart() query into is_cart() condition
 
 = 1.8.13 =
 
