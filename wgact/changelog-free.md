@@ -1,5 +1,14 @@
 == Changelog ==
 
+= 1.8.15 =
+
+* Fix: Determine correctly new customer for shopping cart data on new customers who paid immediately
+* Tweak: Created new trait to calculate brand for product
+* Tweak: Added a new array with additional product attributes (like brand which is calculated)
+* Tweak: added ability to load traits in autoload.php
+* Tweak: Bumped up WC version
+* Tweak: Added an additional is_array() check in order to suppress a PHP 7.4 notice when checking the environment
+
 = 1.8.14 =
 
 * Tweak: Make the <noptimize> tag only appear if Autoptimize is active

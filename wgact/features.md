@@ -20,6 +20,7 @@ Features                                         | free | pro
 **Google Optimize pixel**                        | ✔️    | ✔️
 **Facebook pixel**                               | ✔️    | ✔️
 **Facebook remarketing pixel**                   | ✔️    | ✔️
+**Facebook product microdata output**            |      | ✔️
 **Microsoft Advertising pixel**                  |      | ✔️
 **Microsoft Advertising remarketing pixel**      |      | ✔️
 **Hotjar pixel**                                 | ✔️    | ✔️
@@ -33,7 +34,17 @@ Features                                         | free | pro
 **Choice of order total calculation**            | ✔️    | ✔️
 **Localized by professional translators**        | ✔️    | ✔️
 **Environment checks**                           | ✔️    | ✔️
-**Ignore orders where the payment  failed**      | ✔️    | ✔️
+**Ignore orders where the payment failed**       | ✔️    | ✔️
+
+
+
+Plugin compatibility list               | full | partial
+---                                     | ---  | ---
+**WPML**                                | ✔️    |
+**Woocommerce Brands**                  | ✔️    |
+**YITH WooCommerce Brands**             | ✔️    |
+**Autoptimize**                         | ✔️    |
+
 
 
 
