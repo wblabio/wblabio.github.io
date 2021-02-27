@@ -14,6 +14,7 @@
  - [Facebook](pixels/facebook.md)
  - [Hotjar](pixels/hotjar.md)
  - [Dynamic Remarketing](dynamic-remarketing.md)
+ - [General Settings](general.md)
 
 
 - Testing
