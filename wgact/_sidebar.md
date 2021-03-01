@@ -17,6 +17,13 @@
  - [General Settings](general.md)
 
 
+ - Consent Management
+  - [Overview](consent-mgmt/overview.md)
+  - [Platforms](consent-mgmt/platforms.md)
+  - [Google Consent Mode](consent-mgmt/google-consent-mode.md)
+  - [Borlabs-Cookie](consent-mgmt/borlabs-cookie.md)
+
+
 - Testing
  - [Test order](test-order.md)
  - [Google Tag Assistant](google-tag-assistant.md)
