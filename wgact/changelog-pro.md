@@ -1,5 +1,22 @@
 == Changelog ==
 
+= 1.8.17 =
+
+* Tweak: Remove some freemius options
+
+= 1.8.16 =
+
+* New: Google Analytics enhanced e-commerce
+* New: Added Google consent regions setting
+* New: Output the variation ID for dynamic remarketing
+* New: Maximum compatibility mode
+* Tweak: Strip HTML tags from description in microdata output for Facebook
+* Tweak: Added item_group_id to microdata output for Facebook
+* Tweak: Switched logic to activate conversion cart data automatically when merchant center ID is set
+* Tweak: Made Google Analytics always receive the post ID as product ID because this is more robust
+* Tweak: Removed some unnecessary text output in the settings
+* Fix: Script blocker documentation link
+
 = 1.8.15 =
 
 * New: Added Facebook microdata output

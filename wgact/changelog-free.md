@@ -1,5 +1,18 @@
 == Changelog ==
 
+= 1.8.17 =
+
+* Tweak: Remove some freemius options
+
+= 1.8.16 =
+
+* New: Output the variation ID for dynamic remarketing
+* New: Maximum compatibility mode
+* Tweak: Switched logic to activate conversion cart data automatically when merchant center ID is set
+* Tweak: Made Google Analytics always receive the post ID as product ID because this is more robust
+* Tweak: Removed some unnecessary text output in the settings
+* Fix: Script blocker documentation link
+
 = 1.8.15 =
 
 * Fix: Determine correctly new customer for shopping cart data on new customers who paid immediately
