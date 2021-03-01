@@ -23,3 +23,11 @@ gtag('set', 'url_passthrough', true);
 > Head over to the Google consent mode information [here](https://support.google.com/google-ads/answer/10000067) or [here](https://support.google.com/analytics/answer/9976101) and the developer documentation [here](https://developers.google.com/gtagjs/devguide/consent) to learn more. 
 
 ## Regions
+
+>If no region is set, then the restrictions are enabled for all regions. If you specify one or more regions, then the restrictions only apply for the specified regions.
+
+If you leave the field empty, the restrictions are being applied worldwide. 
+
+If you specify one or more regions, then the restrictions are only applied for the specified regions. 
+
+Generally each region represents a country. Since California has its own, more restrictive regulation (CCPA), we added the option to add California as a region. 
