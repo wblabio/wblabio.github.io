@@ -24,7 +24,14 @@
 
  The plugin integrates seamlessly with the most popular Consent Management Platforms and implements all of the new tracking pixel privacy features available to date.
 
+## Pro Features Principles
 
+When we decide to include a feature into the Pro version rather than the Free version there are several considerations we make. Following we'll explain a few of the principles: 
+
+- New features (like beta features) will only become available for users of the Pro version.
+- If a new feature is essential for the working of the free version we will make it available to the users of the free version as soon as possible. 
+- Complex features that generate a high volume of support requests will only be available for users of the Pro version. 
+- The subscriptions for the Pro version must cover the costs for giving support and further improving the plugin (for the Pro version and the Free version). 
 
 ## Available Features
 
@@ -62,12 +69,15 @@ Feature                                           | free | pro
 
 * CLV multiplier
 * COGS and margin tracking
-* Setup of the plugin
-* Priority support
-* More than two pixels
+* Setup wizzard or video tutorials
 * Localization of the plugin
 
-## Plugin compatibility list
+## Plugin Compatibility List
+
+For one or another reason we've tested the plugin together with third party plugins. The following list shows which third party plugins we've tested and how well our plugins works along with them. This is not an exhaustive list and we'll add more case by case.  
+
+If a third plugin is marked with full compatibility, you shouldn't expect any issues. Plugins that we've marked with partial compatibility have proven to break the output of our plugin under certain conditions and lead to unexpected behavior.
+
 
 Plugin                          | full | partial
 ---                             | ---  | ---
@@ -75,7 +85,15 @@ Plugin                          | full | partial
 **Woocommerce Brands**          | ✔️    |
 **YITH WooCommerce Brands**     | ✔️    |
 **Autoptimize**                 | ✔️    |
+**WP Rocket**                   | ✔️ *  | ✔️
+**LiteSpeed Cache**             | ✔️ *  | ✔️
+**Yoast SEO**                   | ✔️    |
+**Borlabs Cookie**              | ✔️    |
+**GDPR Cookie Consent**         | ✔️    |
+**Cookie Notice & Compliance for GDPR / CCPA**         | ✔️    |
 
+
+\* Only if the "Maximum Compatibility Mode" is enabled in the plugin.
 
 ## Support
 
