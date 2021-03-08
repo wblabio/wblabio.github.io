@@ -2,7 +2,7 @@
 
 ## Create a new conversion in Google Ads
 
->How to set up a purchase conversion in Google Ads
+> How to set up a purchase conversion in Google Ads
 
 ?> Skip this step, if you've already created a purchase conversion in Google Ads
 
@@ -104,3 +104,9 @@ You can find the Google Merchant Center ID in the URL after you log into the [Go
 ## Phone Conversion Number
 
 > Google Ads allows to track calls to a phone number on a website. It does this by automatically swapping the real phone number with a Google number which will redirect the call to the real phone number. 
+
+You can test the phone swapping by appending the following URL parameter on one of the pages where your phone number appears: `#google-wcc-debug`
+
+The URL would then look like this: `https://example.com/#google-wcc-debug`
+
+?> You'll find more info about phone call conversion tracking on the Google support pages [here](https://support.google.com/google-ads/answer/6095883).
