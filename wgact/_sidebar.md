@@ -34,7 +34,11 @@
 - [Troubleshooting](troubleshooting.md)
 
 - [FAQ](faq.md)
-- [Developers](developers.md)
+
+
+- Developers 
+ - [Filters](filters.md)
+ - [Shortcodes](shortcodes.md)
 
 <!-- - [Script Blockers](script-blockers.md) -->
 <!-- - [Pro features](pro-features.md) -->

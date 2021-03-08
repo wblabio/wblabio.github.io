@@ -2,7 +2,7 @@
 
 > One of our goals is to make the plugin developer friendly by providing functionality like filters. The filters help adjust the behavior of the plugin programmatically. This can be interesting for other plugin developers who want to interact with our plugin, or for developers who want to tweak the output of the plugin. 
 
-### Conversion Value Filter
+## Conversion Value Filter
 
 > Use the conversion value filter in order to recalculate the conversion value. The output will only affect the conversion value of the paid ads pixels. The Google Analytics conversion value output will not be touched. 
 
@@ -28,14 +28,14 @@ public function filter_conversion_value( $order_total, $order ) {
 ```
 
 
-### Disable Pixel Output
+## Disable Pixel Output
 
 > In some cases, developers want to disable the pixel injection into the website. That could be the case for consent management platforms that only want to allow pixel injection in case the visitor has given explicit consent. 
 
 `add_filter( 'wgact_cookie_prevention', '__return_true' );`
 
 
-### Additional Google Ads conversion pixels
+## Additional Google Ads conversion pixels
 
 > This is the way how you can add more than one Google Ads conversion pixel programmatically.
 
