@@ -99,3 +99,8 @@ You can find the Google Merchant Center ID in the URL after you log into the [Go
 
  ![Google Merchant Center ID](../_media/gmc-id.png)
 </details>
+
+
+## Phone Conversion Number
+
+> Google Ads allows to track calls to a phone number on a website. It does this by automatically swapping the real phone number with a Google number which will redirect the call to the real phone number. 
