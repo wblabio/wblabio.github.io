@@ -1,6 +1,9 @@
-# Developers
+# Filters
 
-> One of our goals is to make the plugin developer friendly by providing functionality like filters. The filters help adjust the behavior of the plugin programmatically. This can be interesting for other plugin developers who want to interact with our plugin, or for developers who want to tweak the output of the plugin. 
+> While our goal is to make the plugin very simple to use through the user interface, this can be limiting for users and developers who need much more granular control over the plugin's output. For those users we provide filters which give them the option to adjust the plugin's behavior programmatically, making the options almost limitless.
+
+> If you think there is a good use case for a new filter, let us know by sending a feature request [here](https://app.productstash.io/woopt-woocommerce-pixel-manager). 
+
 
 ## Conversion Value Filter
 
