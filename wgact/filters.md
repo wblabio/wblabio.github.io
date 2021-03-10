@@ -39,12 +39,14 @@ public function filter_conversion_value( $order_total, $order ) {
 
 > In some cases, developers want to disable the pixel injection into the website. That could be the case for consent management platforms that only want to allow pixel injection in case the visitor has given explicit consent. 
 
+!> This method doesn't work well with HTML caching enabled. Disable HTML caching if you want to used this method. We are working on a new method that will be HTML cache friendly. 
+
 `add_filter( 'wgact_cookie_prevention', '__return_true' );`
 
 
-## Additional Google Ads conversion pixels
+## Additional Google Ads Conversion Pixels
 
-> This is the way how you can add more than one Google Ads conversion pixel programmatically.
+> With the following filter we provide a way ot add more than one Google Ads conversion pixel programmatically.
 
 
 [Add conversion identifiers to the Google Ads pixel output](https://gist.githubusercontent.com/alewolf/d49a788da470de69dc9c6bc60fbef352/raw/wgact_google_ads_conversion_identifiers.php ':include :type=code')
