@@ -1,5 +1,17 @@
 == Changelog ==
 
+= 1.8.19 =
+
+* New: Added Pro feature demo mode
+* New: Added shortcodes for tracking leads and similar conversions
+* New: Filter to adjust Google Analytics config parameters
+
+= 1.8.18 =
+
+* New: Google Analytics link attribution
+* Tweak: Bumping up WP supported version to 5.7
+* Tweak: Some code syntax cleanup
+
 = 1.8.17 =
 
 * Tweak: Remove some freemius options

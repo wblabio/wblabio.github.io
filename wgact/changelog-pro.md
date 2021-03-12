@@ -1,5 +1,20 @@
 == Changelog ==
 
+= 1.8.19 =
+
+* New: Added Pro feature demo mode
+* New: Added shortcodes for tracking leads and similar conversions
+* New: Filter to adjust Google Analytics config parameters
+
+= 1.8.18 =
+
+* New: Added Borlabs support for Google Consent Mode
+* New: Google Analytics link attribution
+* Tweak: Bumping up WP supported version to 5.7
+* Tweak: Some code syntax cleanup
+* Fix: Fixed the country name for Macedonia in Google consent mode
+* Fix: Fixed duplicated jobs option in Google business verticals
+
 = 1.8.17 =
 
 * Tweak: Remove some freemius options
