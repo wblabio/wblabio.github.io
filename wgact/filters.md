@@ -62,7 +62,7 @@ The following code will remove the `anonymize_ip` parameter on all Google Analyt
 
 ```php
 add_filter('woopt_pm_analytics_parameters', 'adjust_analytics_parameters', 10,2);
-function adjust_analytics_parameters($analytics_id, $analytics_parameters){
+function adjust_analytics_parameters($analytics_parameters, $analytics_id){
     
     unset($analytics_parameters['anonymize_ip']);
     return $analytics_parameters;
@@ -73,7 +73,7 @@ The following code will adjust the parameters only for the given Google Analytic
 
 ```php
 add_filter('woopt_pm_analytics_parameters', 'adjust_analytics_parameters', 10,2);
-function adjust_analytics_parameters($analytics_id, $analytics_parameters){
+function adjust_analytics_parameters($analytics_parameters, $analytics_id){
 
   if('UA-12345678-3' == $analytics_id){
 
@@ -97,7 +97,7 @@ Or maybe, you want to set much more specific settings for `link_attribution` lik
 
 ```php
 add_filter('woopt_pm_analytics_parameters', 'adjust_analytics_parameters', 10,2);
-function adjust_analytics_parameters($analytics_id, $analytics_parameters){
+function adjust_analytics_parameters($analytics_parameters, $analytics_id){
 
   if('UA-12345678-3' == $analytics_id){
 
