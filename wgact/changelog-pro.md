@@ -1,5 +1,9 @@
 == Changelog ==
 
+= 1.8.20 =
+
+* Fix: Fixed the Google Analytics config filter
+
 = 1.8.19 =
 
 * New: Added Pro feature demo mode
