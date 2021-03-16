@@ -82,7 +82,7 @@ There are several possible reasons why this can happen:
 
 - It can take up to 48 hours before the conversion appears in Google Ads
 - Either the conversion ID or the conversion label or both are wrong
-- Google Ads only shows conversion which were triggered through an ad. Please follow these testing procedures exactly: [How to test conversion tracking](https://docs.woopt.com/wgact/#/test-order)
+- Google Ads only shows conversions which were triggered through an ad click. Please follow these testing procedures exactly: [How to test conversion tracking](https://docs.woopt.com/wgact/#/test-order)
 - If you are using caching you must make sure to exclude the purchase confirmation page
 - If you are using minification plugins, turn them off and try again. Some minification plugins break the conversion code
 - Users who disabled JavaScript or users who are blocking cookies (eg. with ad blockers) can't be tracked
