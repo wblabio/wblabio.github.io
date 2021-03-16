@@ -8,4 +8,4 @@
 3. Turn off any kind of ad or script blocker in your browser (because they can disable the tracking code)
 4. Search for one of your keywords and click on one of your ads
 5. Purchase an item from your shop
-6. Wait up to 48 hours until the conversion shows up in Google Ads. (usually takes only a few hours)
+6. Wait up to 48 hours until the conversion shows up in Google Ads. (usually takes only a few hours). When you look at the report in Google ads make sure the date range includes the dates of the ad click and the current date. 
