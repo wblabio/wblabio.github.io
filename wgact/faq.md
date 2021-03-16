@@ -75,3 +75,27 @@ There are two main reasons, why this warning pops up.
 
 - You have activated more than one Google service, such as Google Ads and Google Analytics. During initialization gtag.js is downloaded once and then configured for each service. Google Tag Assistant detects this as two separate gtag.js installations, but it should not. It is safe to ignore that warning. 
 - Some other plugin also injects a gtag source file into the HTML output of the page. As a consequence, the gtag namespace will be declared two times. Technically this is no problem, as they both initialize exactly the same namespace. So one just overwrites the other. Therefore it is safe to ignore that warning. 
+
+## No conversions are being reported in Google Ads
+
+There are several possible reasons why this can happen: 
+
+- It can take up to 48 hours before the conversion appears in Google Ads
+- Either the conversion ID or the conversion label or both are wrong
+- Google Ads only shows conversion which were triggered through an ad. Please follow these testing procedures exactly: [How to test conversion tracking](https://docs.woopt.com/wgact/#/test-order)
+- If you are using caching you must make sure to exclude the purchase confirmation page
+- If you are using minification plugins, turn them off and try again. Some minification plugins break the conversion code
+- Users who disabled JavaScript or users who are blocking cookies (eg. with ad blockers) can't be tracked
+- Cookie Management Platforms (cookie banners) might be blocking the conversion tracking
+- Off-page payment gateways need to be configured to redirect back to the purchase confirmation page. If that's not set up correctly, or if a user interrupts the redirect, no conversion is reported. 
+
+## Not all conversions are being reported
+
+Unfortunately it is not possible to track 100% of all conversions. There are several possible reasons why this can happen: 
+
+- Some users might be using Brave browser (that blocks all trackers by default) or strict privacy settings in other browsers.
+- Some users might be using privacy-enhancing browser extensions that block Google Analytics and Google Tag Manager. Adblockers and other privacy-related browser extensions.
+- Browsers with strict privacy settings.
+- JavaScript disabled in a browser.
+- Cookie Management Platforms (cookie banners) might be blocking the conversion tracking
+- Off-page payment gateways need to be configured to redirect back to the purchase confirmation page. If that's not set up correctly, or if a user interrupts the redirect, no conversion is reported. 
