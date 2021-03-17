@@ -9,3 +9,5 @@
 4. Search for one of your keywords and click on one of your ads
 5. Purchase an item from your shop
 6. Wait up to 48 hours until the conversion shows up in Google Ads. (usually takes only a few hours). When you look at the report in Google ads make sure the date range includes the dates of the ad click and the current date. 
+
+?> The plugin by default deduplicates orders on the order confirmation page. This logic can be turned off in the plugin settings for temporary testing. Sometimes it is more convenient to keep the setting enabled and use the URL parameter `nodedupe` on the purchase confirmation page. When added to the purchase confirmation URL, all deduplication logic will be turned off. Example: Take the order confirmation URL `https://example.test/checkout/order-received/123/?key=wc_order_123abc` add a `&` and then add `nodedupe`. You should end up with this URL: `https://example.test/checkout/order-received/123/?key=wc_order_123abc&nodedupe`
