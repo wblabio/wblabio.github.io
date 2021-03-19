@@ -1,5 +1,13 @@
 == Changelog ==
 
+= 1.8.21 =
+
+* New: Added Google Analytics eec product click events
+* New: Added Google Analytics eec product add_to_cart and remove_from_cart events
+* New: Added output of related up- and cross-sell product view_item_list list events for Google Ads dynamic remarketing
+* New: Added &nodedupe URL parameter for testing the order confirmation page
+* Tweak: Build in a fallback for misconfigured variable products that trigger an "Error: Call to a member function get_sku() on bool"
+
 = 1.8.20 =
 
 * Fix: Fixed the Google Analytics config filter
