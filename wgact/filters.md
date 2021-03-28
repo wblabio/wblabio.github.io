@@ -39,7 +39,7 @@ public function filter_conversion_value( $order_total, $order ) {
 
 > In some cases, developers want to disable the pixel injection into the website. That could be the case for consent management platforms that only want to allow pixel injection in case the visitor has given explicit consent. 
 
-!> This method doesn't work well with HTML caching enabled. Disable HTML caching if you want to used this method. We are working on a new method that will be HTML cache friendly. 
+!> This method doesn't work well with HTML caching enabled. Disable HTML caching if you want to use this method. We are working on a new method that will be HTML cache friendly. 
 
 `add_filter( 'wgact_cookie_prevention', '__return_true' );`
 
