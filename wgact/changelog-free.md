@@ -1,5 +1,12 @@
 == Changelog ==
 
+= 1.8.22 =
+
+* Tweak: Partially decoupled pixels from pixel manager
+* Tweak: Refactored browser e-commerce events into pubsub
+* Fix: Under some circumstances rating_done is not set in the wgact_ratings option. This fix adds this default option.
+* Fix: Fixed the GA 4 config command
+
 = 1.8.21 =
 
 * New: Added output of related up- and cross-sell product view_item_list list events for Google Ads dynamic remarketing
