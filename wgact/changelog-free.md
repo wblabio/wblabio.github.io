@@ -1,5 +1,14 @@
 == Changelog ==
 
+= 1.8.24 =
+
+* Fix: Added a function that should be available in the free version conversion_pixels_already_fired_html
+
+= 1.8.23 =
+
+* Fix: Include output of variable products into the visible_products object
+* Fix: Added a missing opening tag for shops that are still using the gtag deactivation option
+
 = 1.8.22 =
 
 * Tweak: Partially decoupled pixels from pixel manager
