@@ -1,5 +1,10 @@
 == Changelog ==
 
+= 1.8.25 =
+
+* Tweak: Implemented permanent compatibility mode for WP Rocket
+* Fix: Refactored a JavaScript regex that was not working in Safari
+
 = 1.8.24 =
 
 * Fix: Added a function that should be available in the free version conversion_pixels_already_fired_html
