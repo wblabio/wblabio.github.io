@@ -22,10 +22,10 @@ We received numerous reports where the WP Rocket JavaScript concatenation functi
  
 We tried several exclusion settings in WP Rocket's JavaScript concatenation setting fields, but none of them worked. 
  
-?> If you want the WooCommerce Google Ads Conversion Tracking plugin to work properly, you will have to disable the WP Rocket JavaScript concatenation.
+?> If you want the WooCommerce Pixel Manager plugin to work properly, you will have to disable the WP Rocket JavaScript concatenation.
 
 ### LiteSpeed Cache Inline JavaScript After DOM Ready
 
 We received numerous reports where the LiteSpeed Cache Inline JavaScript After DOM Ready function has broken the pixel output of our plugin. In the attempt to optimize JavaScripts, LiteSpeed Cache changes the code to an extent that the tracking pixels won't work anymore. 
 
-?> If you want the WooCommerce Google Ads Conversion Tracking plugin to work properly, you will have to disable LiteSpeed Cache Inline JavaScript After DOM Ready.
+?> If you want the WooCommerce Pixel Manager plugin to work properly, you will have to disable LiteSpeed Cache Inline JavaScript After DOM Ready.

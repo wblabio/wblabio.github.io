@@ -1,10 +1,10 @@
-## WooCommerce Pixel Manager Plugin 
+## WooCommerce Pixel Manager Plugin
 
 This is the documentation for the WooCommerce Pixel Manager Plugin
 
 ## What this plugin does
 
-> This plugin tracks the value of WooCommerce orders and collects data for dynamic remarketing lists in Google Ads. With this data you can optimize all your Google Ads campaigns to achieve maximum efficiency.
+> This plugin is the bridge between a WooCommerce shop and Google Ads, Google Analytics, Facebook etc. It sends visitor and conversion value data to all the pixel providers that are enabled in the plugin. For instance for Google Ads the plugin collects and transmits data for dynamic remarketing lists and the conversion value of orders. The collected data allows you to analyze and optimize your campaigns in order to achieve maximum efficiency.
 
 ## Goals
 
