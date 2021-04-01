@@ -1,5 +1,9 @@
 == Changelog ==
 
+= 1.8.27 =
+
+* Tweak: LD check
+
 = 1.8.26 =
 
 * Tweak: Implemented permanent compatibility mode for SG Optimizer
