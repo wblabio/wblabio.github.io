@@ -1,6 +1,6 @@
-## WooCommerce Google Ads Conversion Tracking Plugin 
+## WooCommerce Pixel Manager Plugin 
 
-This is the documentation for the WooCommerce Google Ads Conversion Tracking Plugin
+This is the documentation for the WooCommerce Pixel Manager Plugin
 
 ## What this plugin does
 
