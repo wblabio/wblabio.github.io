@@ -1,5 +1,11 @@
 == Changelog ==
 
+= 1.8.26 =
+
+* Tweak: Implemented permanent compatibility mode for SG Optimizer
+* Tweak: Implemented permanent compatibility mode for LiteSpeed Cache
+* Tweak: Refactored the Facebook pixel and events
+
 = 1.8.25 =
 
 * Tweak: Implemented permanent compatibility mode for WP Rocket
