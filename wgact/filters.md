@@ -126,7 +126,7 @@ Here's an example on how to switch the product ID output for Facebook to the `SK
 
 ```php
 add_filter('wooptpm_product_id_type_for_facebook', 'product_id_type_output_for_facebook');
-function product_id_type_output_for_facebook(): string
+function product_id_type_output_for_facebook()
 {
   return 'sku';
 }
@@ -137,7 +137,7 @@ Here's an example to switch the Facebook output to post ID:
 
 ```php
 add_filter('wooptpm_product_id_type_for_facebook', 'product_id_type_output_for_facebook');
-function product_id_type_output_for_facebook(): string
+function product_id_type_output_for_facebook()
 {
   return 'post_id';
 }
