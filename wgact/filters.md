@@ -174,3 +174,17 @@ function product_id_type_output_for_pinterest()
   return 'custom2';
 }
 ```
+
+## Google Analytics Product ID Output Filter
+
+> By default the plugin uses the `post ID` as identifier for Google Analytics. This filter allows you to change this to the `SKU`. 
+
+?> The main reasons why the plugin uses the `post ID` by default are: 1) The `post ID` is more reliable. A shop owner might not add SKUs to all products, leaving the field empty. But we need to send an identifier to Google Analytics. (In the case the shop owner doesn't add a SKU to a product, we will fall back to the `post ID`.) 2) The products can be identified by the product name in Google Analytics anyway. 3) It is easier to search for a product ID in WooCommerce or in Google Analytics, so it's more practical to use the `post ID`.
+
+```php
+add_filter('wooptpm_product_id_type_for_google_analytics', 'wooptpm_product_id_type_for_google_analytics');
+function wooptpm_product_id_type_for_google_analytics()
+{
+    return 'sku';
+}
+```
