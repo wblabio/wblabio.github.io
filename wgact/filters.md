@@ -112,13 +112,13 @@ function adjust_analytics_parameters($analytics_parameters, $analytics_id){
 }
 ```
 
-## Product ID output filter
+## Product ID Output Filter for Paid Ads Pixels
 
 > To keep the UX simple and the setup consistent over several advertising channels, there is only one setting in the UX to adjust the product ID output. The same ID then will be used for all paid ads pixels. The standard setting is either the post ID (eg. `14`), the ID for the WooCommerce Google Feed plugin (eg. `woocommerce_gpf_14`) or the SKU (eg. `Hoodie`). In some cases you might need to use a different ID type on different channels. Maybe you're using the post ID for Google Ads, and the SKU for Facebook. In this case the following filter will adjust the output for a specific pixel. It is even possible to completely customize the ID, if necessary. 
 
 ?> We strongly recommend to use the post ID for all product catalogs and for the product ID output. It is the most compatible way and causes the least troubles. 
 
-> By adding the pixel name to the filter name, you can chose which pixel you want to adjust. For Facebook use `wooptpm_product_id_type_for_facebook`, for Microsoft Ads (Bing) use `wooptpm_product_id_type_for_bing`, etc. Depending on which version of the plugin you have, you can use the following pixel filters: `google`, `facebook`, `bing`, `twitter`, `pinterest`
+> By adding the pixel name to the filter name, you can chose which pixel you want to adjust. For Facebook use `wooptpm_product_id_type_for_facebook`, for Microsoft Ads (Bing) use `wooptpm_product_id_type_for_bing`, etc. Depending on which version of the plugin you have, you can use the following pixel filters: `google_ads`, `facebook`, `bing`, `twitter`, `pinterest`
 
 > The default values are `post_id` for the post ID, `gpf` for the WooCommerce Google Feed ID output (eg. `woocommerce_gpf_14`) and `sku` for the SKU. 
 
@@ -160,8 +160,8 @@ function return_wooptpm_dyn_r_product_ids($product_ids, $product)
 ```
 
 ```php
-add_filter('wooptpm_product_id_type_for_google', 'product_id_type_output_for_google');
-function product_id_type_output_for_google(): string
+add_filter('wooptpm_product_id_type_for_google_ads', 'product_id_type_output_for_google_ads');
+function product_id_type_output_for_google_ads()
 {
   return 'custom1';
 }
@@ -169,7 +169,7 @@ function product_id_type_output_for_google(): string
 
 ```php
 add_filter('wooptpm_product_id_type_for_pinterest', 'product_id_type_output_for_pinterest');
-function product_id_type_output_for_pinterest(): string
+function product_id_type_output_for_pinterest()
 {
   return 'custom2';
 }
