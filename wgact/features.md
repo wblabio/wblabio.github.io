@@ -85,13 +85,18 @@ Plugin                          | full | partial
 **Woocommerce Brands**          | ✔️    |
 **YITH WooCommerce Brands**     | ✔️    |
 **Autoptimize**                 | ✔️    |
-**WP Rocket**                   | ✔️ *  | ✔️
-**LiteSpeed Cache**             | ✔️ *  | ✔️
+**WP Rocket**                   | ✔️    |
+**W3 Total Cache**                   | ✔️    | 
+**LiteSpeed Cache**             | ✔️    | 
+**SG Optimizer**                | ✔️    | 
 **Yoast SEO**                   | ✔️    |
 **Borlabs Cookie**              | ✔️    |
 **GDPR Cookie Consent**         | ✔️    |
 **Cookie Notice & Compliance for GDPR / CCPA**         | ✔️    |
-
+**Woo Discount Rules**          | ✔️    |
+**Google Site Kit**             |      | ✔️
+**WooCommerce Google Product Feed** | ✔️    |
+**WP Marketing Robot Feed Manager** | ✔️    |
 
 \* Only if the "Maximum Compatibility Mode" is enabled in the plugin.
 
