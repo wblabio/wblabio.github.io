@@ -1,5 +1,25 @@
 == Changelog ==
 
+= 1.8.29 =
+
+= 1.8.28 =
+
+* New: Filter to switch Google Analytics ID output to SKU
+* New: Process discounted order item price for GA if Woo Discount Rules is active
+* New: Implemented all main GA4 events
+* New: Logged in event for GA
+* New: Google user ID tracking
+* Tweak: Twitter ID check now allows numbers too
+* Tweak: Moved getCartItemsFromBackEnd to document.load event
+* Tweak: Added Freemius purchase conversion
+* Tweak: Avoid number output with too many decimals
+* Tweak: More reliable method to get order from order received page
+* Fix: Imported necessary classes for refunds
+* Fix: Proper variable types for purchase confirmation variables
+* Fix: Initialize wooptpmDataLayer.pixels early, so that all pixels can use it
+* Fix: Replaced $order->get_id() with $order->get_order_number in order to fix a bug on a small subset of shops
+* Fix: Get proper WP db prefix for refunds SQL query
+
 = 1.8.27 =
 
 * Tweak: LD check
