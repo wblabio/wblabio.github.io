@@ -35,10 +35,17 @@
 
 - [FAQ](faq.md)
 
+- [Features](features.md)
+
 
 - Developers 
  - [Filters](filters.md)
  - [Shortcodes](shortcodes.md)
+
+
+- Changelog
+ - [Changelog Pro Version](changelog-pro.md)
+ - [Changelog Free Version](changelog-free.md)
 
 <!-- - [Script Blockers](script-blockers.md) -->
 <!-- - [Pro features](pro-features.md) -->

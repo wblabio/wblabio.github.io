@@ -1,4 +1,4 @@
-## Highlights
+# Highlights
 
 - Tracking Pixels
  
@@ -65,38 +65,60 @@ Feature                                           | free | pro
 **Ignore orders where the payment failed**        | ✔️    | ✔️
 
 
-## Upcoming Features
-
-* CLV multiplier
-* COGS and margin tracking
-* Setup wizzard or video tutorials
-* Localization of the plugin
-
 ## Plugin Compatibility List
 
 For one or another reason we've tested the plugin together with third party plugins. The following list shows which third party plugins we've tested and how well our plugins works along with them. This is not an exhaustive list and we'll add more case by case.  
 
 If a third plugin is marked with full compatibility, you shouldn't expect any issues. Plugins that we've marked with partial compatibility have proven to break the output of our plugin under certain conditions and lead to unexpected behavior.
 
+### General Plugins
 
 Plugin                          | full | partial
 ---                             | ---  | ---
 **WPML**                        | ✔️    |
-**Woocommerce Brands**          | ✔️    |
-**YITH WooCommerce Brands**     | ✔️    |
-**Autoptimize**                 | ✔️    |
-**WP Rocket**                   | ✔️    |
-**W3 Total Cache**                   | ✔️    | 
-**LiteSpeed Cache**             | ✔️    | 
-**SG Optimizer**                | ✔️    | 
 **Yoast SEO**                   | ✔️    |
-**Borlabs Cookie**              | ✔️    |
-**GDPR Cookie Consent**         | ✔️    |
-**Cookie Notice & Compliance for GDPR / CCPA**         | ✔️    |
-**Woo Discount Rules**          | ✔️    |
 **Google Site Kit**             |      | ✔️
+
+* We have seen  that using Google Site Kit alongside with our plugin can cause purchases not to be tracked in Google Analytics. We're not sure yet if this happens on all installs or just when certain settings in Google Site Kit are enabled. 
+
+### JavaScript Optimization Plugins
+
+Plugin                          | full | partial | not yet tested
+---                             | ---  | ---     | ---
+**Autoptimize**                 | ✔️    |         | 
+**WP Rocket**                   | ✔️    |         |
+**W3 Total Cache**              | ✔️    |         | 
+**LiteSpeed Cache**             | ✔️    |         | 
+**SG Optimizer**                | ✔️    |         | 
+**Swift Performance**           |      |         | ✔️
+**WP Fastest Cache**            |      |         | ✔️
+**Powerpack**                   |      |         | ✔️
+**Breeze**                      |      |         | ✔️
+**PhastPress**                  |      |         | ✔️
+**WP Super Cache**              |      |         | ✔️
+**PageSpeed Ninja**             |      |         | ✔️
+**Comet Cache**                 |      |         | ✔️
+**Hummingbird**                 |      |         | ✔️
+
+
+### WooCommerce Extensions
+
+Plugin                              | full | partial
+---                                 | ---  | ---
+**Woocommerce Brands**              | ✔️    |
+**YITH WooCommerce Brands**         | ✔️    |
+**Woo Discount Rules**              | ✔️    |
 **WooCommerce Google Product Feed** | ✔️    |
 **WP Marketing Robot Feed Manager** | ✔️    |
+
+### Cookie Constent Plugins
+
+Plugin                                          | full | partial
+---                                             | ---  | ---
+**Borlabs Cookie**                              | ✔️    |
+**GDPR Cookie Consent**                         | ✔️    |
+**Cookie Notice & Compliance for GDPR / CCPA**  | ✔️    |
+
 
 \* Only if the "Maximum Compatibility Mode" is enabled in the plugin.
 
