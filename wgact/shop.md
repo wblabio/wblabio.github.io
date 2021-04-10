@@ -8,7 +8,7 @@ Order duplication is more common than expected. In average revenue reports can b
 
 Much better, right? We can do even more!
 
-?> Advanced order deduplication (which is available for pro users only) adds one more layer of deduplication. Once the browser based deduplication has run, we also store that event in the WooCommerce oder database. No matter on which device the purchase confirmation is re-opened, this method will prevent the conversion to be fired ever again.  
+?> Advanced order deduplication (which is available for pro users only, available [here](https://woopt.com/pricing/)) adds one more layer of deduplication. Once the browser based deduplication has run, we also store that event in the WooCommerce oder database. No matter on which device the purchase confirmation is re-opened, this method will prevent the conversion to be fired ever again.  
 
 ### Ignore failed orders
 
