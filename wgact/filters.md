@@ -188,3 +188,39 @@ function wooptpm_product_id_type_for_google_analytics()
     return 'sku';
 }
 ```
+
+## View Item List Trigger Filter
+
+> The plugin uses a smart trigger for the `view_item_list` event. It only triggers if a product is actually visible in the viewport for more than 1 second. If a visitor scrolls up and down and sees a product several times, `view_item_list` will be triggered each time (again, only if visible for more than one second). The following filter allows to tweak that behavior. 
+
+Following settings are available:
+
+- `testMode`: It activates the test mode, which will show you a transparent overlay on each product for which `view_item_list` has been triggered. 
+- `bacgroundColor`: You can change the background color of the test overlay in case you use product images where the overlay would not be visible. This is only relevant for the test mode. 
+- `opacity`: By default the overlay is half transparent. You can adjust the opacity to a level that suits you more. This is only relevant for the test mode. 
+- `repeat`: By default the plugin resends `view_item_list` events when a visitor scrolls up and down and sees a product multiple times. You can turn this off by setting the value to `false`. Then the plugin will send only one `view_item_list` event when a product becomes visible on a page. 
+- `threshold`: This sets how much of a product card must be visible before the event is triggered. With a setting of `1`the event triggers only when 100% of the product is visible. The default is `0.8`. 
+- `timeout`: This value tells the plugin how long a product must be visible before the `view_item_list` event is sent. The timer will be reset each time the product leaves the viewport. The time must be set in milliseconds, and the default value is `1000` milliseconds (1 second).
+
+```php
+add_filter('wooptpm_view_item_list_trigger_settings', 'wooptpm_view_item_list_trigger_settings');
+function wooptpm_view_item_list_trigger_settings($settings)
+{
+    $settings['testMode']        = true;
+    $settings['backgroundColor'] = 'green';
+    // $settings['backgroundColor'] = 'rgba(60,179,113)';
+    $settings['opacity']         = 0.5;
+    $settings['repeat']          = true;
+    $settings['threshold']       = 1;
+    $settings['timeout']         = 1000;
+
+    return $settings;
+}
+```
+
+
+  
+
+![view_item_list event test mode](../_media/view-item-list-trigger-test-mode.png)
+
+![view_item_list event test mode 2](../_media/view-item-list-trigger-test-mode.gif)
