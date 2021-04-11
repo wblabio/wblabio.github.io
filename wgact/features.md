@@ -100,18 +100,20 @@ Plugin                          | full | partial | not yet tested
 **Comet Cache**                 |      |         | ✔️
 **Hummingbird**                 |      |         | ✔️
 
+?> If a plugin that you are using has not been tested yet, please put in a feature request which will allow us to prioritize it. Feature requests can be posted on our [roadmap](https://app.productstash.io/roadmaps/603366a462b3c30029854c2f/public).
+
 
 ### WooCommerce Extensions
 
 Plugin                              | full | partial
 ---                                 | ---  | ---
-**Woocommerce Brands**              | ✔️    |
+**WooCommerce Brands**              | ✔️    |
 **YITH WooCommerce Brands**         | ✔️    |
 **Woo Discount Rules**              | ✔️    |
 **WooCommerce Google Product Feed** | ✔️    |
 **WP Marketing Robot Feed Manager** | ✔️    |
 
-### Cookie Constent Plugins
+### Cookie Consent Plugins
 
 Plugin                                          | full | partial
 ---                                             | ---  | ---
