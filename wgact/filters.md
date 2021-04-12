@@ -223,8 +223,8 @@ function wooptpm_view_item_list_trigger_settings($settings)
 
   
 
-![view_item_list event test mode](../_media/view-item-list-trigger-test-mode.png)
+![view_item_list event test mode](./_media/view-item-list-trigger-test-mode.png)
 
-![view_item_list event test mode 2](../_media/view-item-list-trigger-test-mode.gif)
+![view_item_list event test mode 2](./_media/view-item-list-trigger-test-mode.gif)
 
 [view_item_list event test mode 3](https://www.youtube.com/embed/rohrm5got1M?rel=0 ':include :type=iframe width=100% height=600 frameborder="0"')
