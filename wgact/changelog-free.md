@@ -1,6 +1,16 @@
 == Changelog ==
 
-= 1.8.29 =
+= 1.9.0 =
+
+* Tweak: Additional caching exclusions for SG Optimizer
+* Tweak: Changed the gtag code in order to make it better testable
+* Tweak: Moved some scripts to the footer
+* Tweak: Improved add_to_cart trigger
+* Tweak: Refactored view_item_list event entirely to be unaffected by caching mechanisms
+* Tweak: Added a new view_item_list trigger with some interesting options
+* Fix: Fixed front-end triggers for Google and Facebook to only fire if the pixels are enabled
+* Fix: Fixed an array check if an old WP Rocket version was installed and threw a notice about a missing array index
+* Fix: Output correct price if WPML Multilingual with Multi-currency is running
 
 = 1.8.28 =
 

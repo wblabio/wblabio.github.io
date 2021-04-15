@@ -1,6 +1,23 @@
 == Changelog ==
 
-= 1.8.29 =
+= 1.9.0 =
+
+* New: Implemented view_item event for variations when selected on the product page
+* New: Implemented view_search_results event
+* Tweak: Use proper select_item event in GA4 not the deprecated select_content event anymore
+* Tweak: Moved view_item event processing entirely to front-end
+* Tweak: Improved selector for products if WPML WC multi currency is being used
+* Tweak: Better test to check if WPML WC multi currency is active
+* Tweak: Improved function to get the productId on select_item event
+* Tweak: Additional caching exclusions for SG Optimizer
+* Tweak: Changed the gtag code in order to make it better testable
+* Tweak: Moved some scripts to the footer
+* Tweak: Improved add_to_cart trigger
+* Tweak: Refactored view_item_list event entirely to be unaffected by caching mechanisms
+* Tweak: Added a new view_item_list trigger with some interesting options
+* Fix: Fixed front-end triggers for Google and Facebook to only fire if the pixels are enabled
+* Fix: Fixed an array check if an old WP Rocket version was installed and threw a notice about a missing array index
+* Fix: Output correct price if WPML Multilingual with Multi-currency is running
 
 = 1.8.28 =
 
