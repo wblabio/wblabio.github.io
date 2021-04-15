@@ -181,6 +181,8 @@ function product_id_type_output_for_pinterest()
 
 ?> The main reasons why the plugin uses the `post ID` by default are: 1) The `post ID` is more reliable. A shop owner might not add SKUs to all products, leaving the field empty. But we need to send an identifier to Google Analytics. (In the case the shop owner doesn't add a SKU to a product, we will fall back to the `post ID`.) 2) The products can be identified by the product name in Google Analytics anyway. 3) It is easier to search for a product ID in WooCommerce or in Google Analytics, so it's more practical to use the `post ID`.
 
+
+
 ```php
 add_filter('wooptpm_product_id_type_for_google_analytics', 'wooptpm_product_id_type_for_google_analytics');
 function wooptpm_product_id_type_for_google_analytics()
@@ -191,9 +193,9 @@ function wooptpm_product_id_type_for_google_analytics()
 
 ## View Item List Trigger Filter
 
-> From version 1.8.29
-
 > The plugin uses a smart trigger for the `view_item_list` event. It only triggers if a product is actually visible in the viewport for more than 1 second. If a visitor scrolls up and down and sees a product several times, `view_item_list` will be triggered each time (again, only if visible for more than one second). The following filter allows to tweak that behavior. 
+
+?> This will only work on a website where caching is off, or after flushing the cache each time you change the settings. 
 
 Following settings are available:
 
@@ -220,7 +222,7 @@ function wooptpm_view_item_list_trigger_settings($settings)
 }
 ```
 
-Another simple way to enable the view_item_list demo mode is by appending the parameter `vildemomode` to the URL you want to test. Don't forget the `?`. It would look like this `https://example.com/shop/?vildemomode`. 
+> Another simple way to enable the view_item_list demo mode is by appending the parameter `vildemomode` to the URL you want to test. Don't forget the `?`. Example: `https://example.com/shop/?vildemomode`. This method even works on websites with caching turned on. It will use the default settings.
 
 
 ![view_item_list event test mode](./_media/view-item-list-trigger-test-mode.png)
