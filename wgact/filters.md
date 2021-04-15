@@ -220,8 +220,8 @@ function wooptpm_view_item_list_trigger_settings($settings)
 }
 ```
 
+Another simple way to enable the view_item_list demo mode is by appending the parameter `vildemomode` to the URL you want to test. Don't forget the `?`. It would look like this `https://example.com/shop/?vildemomode`. 
 
-  
 
 ![view_item_list event test mode](./_media/view-item-list-trigger-test-mode.png)
 
