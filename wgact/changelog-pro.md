@@ -1,5 +1,13 @@
 == Changelog ==
 
+= 1.9.3 =
+
+* Tweak: Added one more layer of safeguards if wooptpm.js can't evaluate the current productId
+
+= 1.9.2 =
+
+* Tweak: Added one more safeguard if wooptpm.js can't evaluate the current productId
+
 = 1.9.1 =
 
 * Tweak: Much better selector for view_item_list trigger
