@@ -1,5 +1,12 @@
 == Changelog ==
 
+= 1.9.1 =
+
+* Tweak: Much better selector for view_item_list trigger
+* Tweak: Added some some safeguards in order to stop processing in case no productId can be evaluated
+* Tweak: Removed deprecated "disable gtag insertion" feature entirely
+
+
 = 1.9.0 =
 
 * New: Implemented view_item event for variations when selected on the product page

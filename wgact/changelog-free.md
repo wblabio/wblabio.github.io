@@ -1,5 +1,11 @@
 == Changelog ==
 
+= 1.9.1 =
+
+* Tweak: Added some some safeguards in order to stop processing in case no productId can be evaluated
+* Tweak: Removed deprecated "disable gtag insertion" feature entirely
+
+
 = 1.9.0 =
 
 * Tweak: Additional caching exclusions for SG Optimizer
