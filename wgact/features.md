@@ -121,6 +121,7 @@ Plugin                                          | full | partial
 **Borlabs Cookie**                              | ✔️    |
 **GDPR Cookie Consent**                         | ✔️    |
 **Cookie Notice & Compliance for GDPR / CCPA**  | ✔️    |
+**Cookiebot**                                   | ✔️    |
 
 
 \* Only if the "Maximum Compatibility Mode" is enabled in the plugin.
