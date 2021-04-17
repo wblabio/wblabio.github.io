@@ -63,6 +63,7 @@ Feature                                           | free | pro
 **Localized by professional translators**         | ✔️    | ✔️
 **Environment checks**                            | ✔️    | ✔️
 **Ignore orders where the payment failed**        | ✔️    | ✔️
+**Event processing on lazy loaded products**      | ✔️    | ✔️
 
 
 ## Plugin Compatibility List
