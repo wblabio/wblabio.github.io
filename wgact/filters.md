@@ -195,7 +195,7 @@ function wooptpm_product_id_type_for_google_analytics()
 
 > The plugin uses a smart trigger for the `view_item_list` event. It only triggers if a product is actually visible in the viewport for more than 1 second. If a visitor scrolls up and down and sees a product several times, `view_item_list` will be triggered each time (again, only if visible for more than one second). The following filter allows to tweak that behavior. 
 
-> Lazy loading products is supported too 😀
+> Lazy loading products is supported too 😀  (from version 1.9.4)
 
 ?> This will only work on a website where caching is off, or after flushing the cache each time you change the settings. 
 
