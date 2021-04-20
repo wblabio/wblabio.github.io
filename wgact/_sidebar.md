@@ -12,6 +12,7 @@
 - Plugin configuration
  - [Google Ads](pixels/google-ads.md)
  - [Facebook](pixels/facebook.md)
+ - [Microsoft Advertising](pixels/microsoft-advertising.md)
  - [Hotjar](pixels/hotjar.md)
  - [Dynamic Remarketing](dynamic-remarketing.md)
  - [General Settings](general.md)
