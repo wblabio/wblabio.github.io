@@ -82,6 +82,20 @@ Plugin                          | full | partial
 
 * We have seen  that using Google Site Kit alongside with our plugin can cause purchases not to be tracked in Google Analytics. We're not sure yet if this happens on all installs or just when certain settings in Google Site Kit are enabled. 
 
+
+### WooCommerce Extensions
+
+Plugin                              | full | partial
+---                                 | ---  | ---
+**WooCommerce Brands**              | ✔️    |
+**WooCommerce Wishlists**           | ✔️    |
+**WooCommerce Google Product Feed** | ✔️    |
+**YITH WooCommerce Brands**         | ✔️    |
+**YITH WooCommerce Wishlist**       | ✔️    |
+**Woo Discount Rules**              | ✔️    |
+**WP Marketing Robot Feed Manager** | ✔️    |
+
+
 ### JavaScript Optimization Plugins
 
 Plugin                          | full | partial | not yet tested
@@ -103,16 +117,6 @@ Plugin                          | full | partial | not yet tested
 
 ?> If a plugin that you are using has not been tested yet, please put in a feature request which will allow us to prioritize it. Feature requests can be posted on our [roadmap](https://app.productstash.io/roadmaps/603366a462b3c30029854c2f/public).
 
-
-### WooCommerce Extensions
-
-Plugin                              | full | partial
----                                 | ---  | ---
-**WooCommerce Brands**              | ✔️    |
-**YITH WooCommerce Brands**         | ✔️    |
-**Woo Discount Rules**              | ✔️    |
-**WooCommerce Google Product Feed** | ✔️    |
-**WP Marketing Robot Feed Manager** | ✔️    |
 
 ### Cookie Consent Plugins
 
