@@ -1,5 +1,22 @@
 == Changelog ==
 
+= 1.9.4 =
+
+* New: add_to_wishlist event for GA and Facebook
+* New: InitiateCheckout event for FB
+* New: Send purchase events using the GA UA Measurement Protocol
+* New: Send subscription renewal purchase events using the GA UA Measurement Protocol
+* New: Send full refund events using the GA UA Measurement Protocol
+* New: Send partial refund events using the GA UA Measurement Protocol
+* New: Send purchase events using the GA 4 Measurement Protocol
+* New: Send subscription renewal purchase events using the GA 4 Measurement Protocol
+* New: Send full refund events using the GA 4 Measurement Protocol
+* New: Send partial refund events using the GA 4 Measurement Protocol
+* Tweak: Only activate eec scripts if GA UA or GA4 are enabled
+* Tweak: Finalized improvement for front-end error handling
+* Tweak: Added a JS modification exclusion for Autoptimize in order to prevent our script to get modified and broken
+* Fix: Fixed a selector for cart items on the cart page which caused on certain custom shop templates to trigger an error
+
 = 1.9.3 =
 
 * Tweak: Added one more layer of safeguards if wooptpm.js can't evaluate the current productId

@@ -1,5 +1,11 @@
 == Changelog ==
 
+= 1.9.4 =
+
+* Tweak: Finalized improvement for front-end error handling
+* Tweak: Added a JS modification exclusion for Autoptimize in order to prevent our script to get modified and broken
+* Fix: Fixed a selector for cart items on the cart page which caused on certain custom shop templates to trigger an error
+
 = 1.9.3 =
 
 * Tweak: Added one more layer of safeguards if wooptpm.js can't evaluate the current productId
