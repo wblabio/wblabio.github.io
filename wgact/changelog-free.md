@@ -1,5 +1,13 @@
 == Changelog ==
 
+= 1.9.5 =
+
+* Tweak: Added dependencies to enqueued scripts
+* Tweak: Improved the parent selector for the mutation observer for lazy loaded products
+* Tweak: Implemented better product selector for modification observer
+* Tweak: Added new selector for related products
+
+
 = 1.9.4 =
 
 * Tweak: Finalized improvement for front-end error handling

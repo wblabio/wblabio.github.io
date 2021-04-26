@@ -1,5 +1,17 @@
 == Changelog ==
 
+= 1.9.5 =
+
+* Tweak: Added nonces to some ajax calls
+* Tweak: Added dependencies to enqueued scripts
+* Tweak: Improved the parent selector for the mutation observer for lazy loaded products
+* Tweak: Implemented better product selector for modification observer
+* Tweak: Added new selector for related products
+* Fix: Improved the verification for the Google Analytics 4 API secret. It was too restrictive.
+* Fix: Fixed the cid for subscription renewal purchases with missing cid on the parent order
+* Fix: Fixed the deduplication check for GA UA MP hits
+
+
 = 1.9.4 =
 
 * New: add_to_wishlist event for GA and Facebook
