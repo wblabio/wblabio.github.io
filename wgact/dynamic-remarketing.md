@@ -40,7 +40,7 @@ Within Google Ads browse to > Shared Library > Audience Manager > Audience Sourc
   <details>
   <summary>image (Click to expand)</summary>
 
-  ![Google Ads audiences setup 1](../_media/google-ads-audiences-setup-1.png)
+  ![Google Ads audiences setup 1](/_media/google-ads-audiences-setup-1.png)
   </details>
 
 
@@ -49,7 +49,7 @@ Within Google Ads browse to > Shared Library > Audience Manager > Audience Sourc
   <details>
   <summary>image (Click to expand)</summary>
 
-  ![Google Ads audiences setup 2](../_media/google-ads-audiences-setup-2.png)
+  ![Google Ads audiences setup 2](/_media/google-ads-audiences-setup-2.png)
   </details>
 
 3. Finish setup
@@ -57,7 +57,7 @@ Within Google Ads browse to > Shared Library > Audience Manager > Audience Sourc
   <details>
   <summary>image (Click to expand)</summary>
 
-  ![Google Ads audiences setup 3](../_media/google-ads-audiences-setup-3.png)
+  ![Google Ads audiences setup 3](/_media/google-ads-audiences-setup-3.png)
   </details>
 
 
@@ -66,5 +66,5 @@ After finishing the setup, Google Ads will automatically create four new dynamic
   <details>
   <summary>image (Click to expand)</summary>
 
-  ![Google Ads audiences setup 4](../_media/google-ads-audiences-setup-4.png)
+  ![Google Ads audiences setup 4](/_media/google-ads-audiences-setup-4.png)
   </details>
