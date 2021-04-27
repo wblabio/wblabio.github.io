@@ -30,3 +30,41 @@ There are several ways to upload your products to the Google Merchant Center. Th
 For countries where the Google Merchant Center is not available, you can upload your product using a custom business feed. [Create a feed](https://support.google.com/google-ads/answer/6077139)
 
 You will also need to set the [Google Business Vertical](https://support.google.com/google-ads/answer/7305793#zippy=%2Ccustom) to 'custom'. This is available in the Pro version of our plugin.
+
+#### Setting Up Dynamic Remarketing Audiences in Google Ads
+
+Within Google Ads browse to > Shared Library > Audience Manager > Audience Sources. 
+
+1. Click on **Setup Tag**
+
+  <details>
+  <summary>image (Click to expand)</summary>
+
+  ![Google Ads audiences setup 1](../_media/google-ads-audiences-setup-1.png)
+  </details>
+
+
+2. Configure basic settings
+
+  <details>
+  <summary>image (Click to expand)</summary>
+
+  ![Google Ads audiences setup 2](../_media/google-ads-audiences-setup-2.png)
+  </details>
+
+3. Finish setup
+
+  <details>
+  <summary>image (Click to expand)</summary>
+
+  ![Google Ads audiences setup 3](../_media/google-ads-audiences-setup-3.png)
+  </details>
+
+
+After finishing the setup, Google Ads will automatically create four new dynamic remarketing audiences.
+
+  <details>
+  <summary>image (Click to expand)</summary>
+
+  ![Google Ads audiences setup 4](../_media/google-ads-audiences-setup-4.png)
+  </details>
