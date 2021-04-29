@@ -46,7 +46,7 @@ Some users have noticed in the network tab of their browsers that the `wooptpm_g
 
 But, why am I saying that this is **not** slowing down the website? 
 
-The `wooptpm_get_cart_items` call happens **after** the browser has signalled the load event, *which happens when all content has already been successfully loaded*.
+The `wooptpm_get_cart_items` call happens **after** the browser has signalled the `load` event, *which happens after all content has already been successfully loaded*.
 
 ?> The load event is fired when the whole page has loaded, including all dependent resources such as stylesheets and images.
 
