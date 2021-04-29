@@ -1,5 +1,10 @@
 == Changelog ==
 
+= 1.9.6 =
+
+* Tweak: Added one more tweak for LiteSpeed Cache users
+* Fix: Changed reading options from database to passing options from primary instance in order to avoid options caching issues on saving.
+
 = 1.9.5 =
 
 * Tweak: Added dependencies to enqueued scripts

@@ -1,5 +1,12 @@
 == Changelog ==
 
+= 1.9.6 =
+
+* Tweak: Orders now get reported as soon as the order goes into status 'processing'
+* Tweak: Added one more tweak for LiteSpeed Cache users
+* Fix: Fix GA UA eec checkout progress steps
+* Fix: Changed reading options from database to passing options from primary instance in order to avoid options caching issues on saving.
+
 = 1.9.5 =
 
 * Tweak: Added nonces to some ajax calls
