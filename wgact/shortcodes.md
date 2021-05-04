@@ -14,9 +14,9 @@
 
 `[conversion-pixel pixel="twitter"]`
 
-`[conversion-pixel pixel="ms-ads"]`
-
 `[conversion-pixel pixel="twitter" twc-event="Signup"]`
+
+`[conversion-pixel pixel="ms-ads"]`
 
 `[conversion-pixel pixel="pinterest"]`
 
