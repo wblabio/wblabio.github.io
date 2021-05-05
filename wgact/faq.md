@@ -73,7 +73,16 @@ If the warning doesn't go away, please reach out to us and aks for support.
 
 There are two main reasons, why this warning pops up. 
 
-- You have activated more than one Google service, such as Google Ads and Google Analytics. During initialization `gtag.js` is downloaded once and then configured for each service. Google Tag Assistant detects this as two separate `gtag.js` installations, but it should not. It is safe to ignore that warning. 
+- You have activated more than one Google service, such as Google Ads and Google Analytics. During initialization `gtag.js` is configured once for each service. Google Tag Assistant detects this as separate global site tag, but it should not. It is safe to ignore that warning. 
+
+We implemented this exactly as [specified by Google](https://developers.google.com/gtagjs/reference/api). 
+
+ <details>
+ <summary>image (Click to expand)</summary>
+
+ ![Google Tag Assistant multiple global site tag  warning](_media/multiple-global-site-tag.png)
+ </details>
+
 - Some other plugin also injects a `gtag` source file into the HTML output of the page. As a consequence, the `gtag` namespace will be declared two times. Technically this is no problem, as they both initialize exactly the same namespace. So one just overwrites the other. Therefore it is safe to ignore that warning. 
 
 ## No conversions are being reported in Google Ads
