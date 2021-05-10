@@ -1,5 +1,13 @@
 == Changelog ==
 
+= 1.10.0 =
+
+* Tweak: Only show the rating notice to admins of the shop.
+* Tweak: Added more exclusions for WP Rocket
+* Tweak: Added exclusions for WP Optimize
+* Tweak: Additional exclusions for Autoptimize
+* Tweak: Removed hit on for parent IDs on a variable product page
+
 = 1.9.6 =
 
 * Tweak: Added one more tweak for LiteSpeed Cache users
