@@ -51,11 +51,7 @@ Once the access token has been saved into the configuration, Facebook CAPI is ac
 
 - **Process anonymous hits**: Our plugin doesn't send a CAPI hit if a visitor is blocking the Facebook pixel. If you enable this setting our plugin will send an anonymized CAPI hit to Facebook. It will generate a random `fbp` ID and a random `user_agent`, which are the required parameters for a valid CAPI hit. 
 
-- **Send visitor IP address**: When this option is enabled, our plugin will additionally send the visitor's IP address to Facebook. It is optional and will increase the likelihood that Facebook will match the hit to an existing Facebook user profile.
-
-- **Send visitor email**: When this option is enabled, our plugin will additionally send the visitor's email address to Facebook. It will only do this where the email is available, like for logged in users and past buyers. Also the email will not be sent in plain text but [hashed](https://developers.facebook.com/docs/marketing-api/audiences/guides/custom-audiences/#example_sha256). This setting is optional and will increase the likelihood that Facebook will match the hit to an existing Facebook user profile.
-
-- **Send visitor shop ID**: When this option is enabled, our plugin will additionally send the visitor's shop ID address to Facebook (the WooCommerce user ID of that visitor). It will only do this where the shop ID is available for that visitor, like for logged in users and past buyers. Also the shop ID will not be send in plain text but [hashed](https://developers.facebook.com/docs/marketing-api/audiences/guides/custom-audiences/#example_sha256). This setting is optional and will increase the likelihood that Facebook will match the hit to an existing Facebook user profile.
+- **Send additional visitor identifiers**: When this option is enabled, our plugin will additionally send several visitor identifiers to Facebook, such as IP address, shop ID and email. It is optional and will increase the likelihood that Facebook will match the hit to an existing Facebook user profile. For security reasons our plugin will hash the data where possible. More info about hashing and visitor identifiers [here](https://developers.facebook.com/docs/marketing-api/audiences/guides/custom-audiences/#example_sha256) and [here](https://developers.facebook.com/docs/marketing-api/conversions-api/parameters/customer-information-parameters).
 
 ### Testing
 
