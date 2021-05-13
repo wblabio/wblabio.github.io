@@ -37,6 +37,8 @@ The AddPaymentInfo event has not been implemented since in a standard WooCommerc
 
 ?> The Facebook Conversion API (CAPI) is Facebook's server side event reporting mechanism. It complements the browser pixel and helps to measure events that under certain circumstances can get lost by the browser pixel. Since accurate event reporting is helpful for campaign optimization, Facebook CAPI is an important tool for performance marketers. You'll find more info about CAPI in the official documentation [here](https://developers.facebook.com/videos/2020/conversion-api-capi-external-implementation/) and [here](https://developers.facebook.com/docs/marketing-api/conversions-api/).
 
+?> Using the Facebook Conversion API (CAPI) will increase the load on your server. Regular Facebook pixel implementations don't require interaction with the shop server on every Facebook event. The browser sends all of those directly to Facebook. But, the Facebook Conversion API is different. In addition to every browser API call each event (AddToCart, ViewItem, Purchase, etc.) has also to be sent by the shop server to the Facebook servers. This leads to a significantly higher load on the server. If you're required to use the Facebook Conversion API and your server comes to its limits (increased rate of server errors) then you will have to upgrade your server capacity. 
+
 ### Setting up Facebook CAPI
 
 1. Get a Facebook CAPI access token: [instruction](https://developers.facebook.com/docs/marketing-api/conversions-api/get-started#access-token)
