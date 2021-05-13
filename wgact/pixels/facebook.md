@@ -33,7 +33,7 @@ The AddPaymentInfo event has not been implemented since in a standard WooCommerc
 
 > Available in version 1.10 and above
 
-> This is a feature only available for users of the Pro version. Get the Pro version [here](https://woopt.com/)
+> This is a feature only available for users of the Pro version. Get the Pro version [here](https://woopt.com/).
 
 ?> The Facebook Conversion API (CAPI) is Facebook's server side event reporting mechanism. It complements the browser pixel and helps to measure events that under certain circumstances can get lost by the browser pixel. Since accurate event reporting is helpful for campaign optimization, Facebook CAPI is an important tool for performance marketers. You'll find more info about CAPI in the official documentation [here](https://developers.facebook.com/videos/2020/conversion-api-capi-external-implementation/) and [here](https://developers.facebook.com/docs/marketing-api/conversions-api/).
 
@@ -68,7 +68,7 @@ add_filter('wooptpm_facebook_capi_test_event_code', function () {
 });
 ```
 
-In case you suspect that something with the API call to the Facebook server is wrong, or you simply want to see the response from the Facebook server, the following filter is for you. It will output Facebook's response into the regular log file (you'll need to [enable logging](https://codex.wordpress.org/WP_DEBUG) for that). 
+In case you suspect that something is wrong with the API call to the Facebook server, or you simply want to see the response from the Facebook server, the following filter is for you. It will output the API request response into the WooCommerce log file for Facebook CAPI. You can view the log file under WooCommerce > Status >  Logs > wooptpm-facebook-capi. Or you can open the file on the server. It is saved under /wp-content/uploads/wc-logs/.
 
 ```php
 add_filter('wooptpm_send_http_api_facebook_capi_requests_blocking', '__return_true');
