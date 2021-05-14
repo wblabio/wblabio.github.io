@@ -1,5 +1,11 @@
 == Changelog ==
 
+= 1.10.2 =
+
+* Tweak: Renamed and deprecated several old filters
+* Fix: Removed unnecessary function call from pinterest__premium_only.js
+
+
 = 1.10.1 =
 
 * New: Added a debug test to see if the server can reach the outside world with a wp_remote_get() request
