@@ -9,13 +9,13 @@
 
 > Use the conversion value filter in order to recalculate the conversion value. The output will only affect the conversion value of the paid ads pixels. The Google Analytics conversion value output will not be touched. 
 
-`add_filter( 'wgact_conversion_value_filter', array( $this, 'filter_conversion_value' ), 10, 2 );`
+`add_filter( 'wooptpm_conversion_value_filter', array( $this, 'filter_conversion_value' ), 10, 2 );`
 
 
 Example:
 
 ```php
-add_filter( 'wgact_conversion_value_filter', array( $this, 'filter_conversion_value' ), 10, 2 );
+add_filter( 'wooptpm_conversion_value_filter', array( $this, 'filter_conversion_value' ), 10, 2 );
 
 public function filter_conversion_value( $order_total, $order ) {
 
