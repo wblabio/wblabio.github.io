@@ -1,5 +1,9 @@
 == Changelog ==
 
+= 1.10.3 =
+
+* Tweak: Switch to use different hook on product pages to output main product data
+
 = 1.10.2 =
 
 * Tweak: Renamed and deprecated several old filters
