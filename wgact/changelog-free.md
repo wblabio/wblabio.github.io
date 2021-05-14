@@ -1,5 +1,12 @@
 == Changelog ==
 
+= 1.10.1 =
+
+* New: Added a debug test to see if the server can reach the outside world with a wp_remote_get() request
+* Tweak: Added better fallback for cookie retrievals if cookies can't be saved in the session
+* Fix: Fire view_item event on products that are out of stock
+* Fix: In case the redirect check returns an array of redirects, we return the last array member.
+
 = 1.10.0 =
 
 * Tweak: Only show the rating notice to admins of the shop.
