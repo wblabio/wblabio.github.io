@@ -112,6 +112,7 @@ function adjust_analytics_parameters($analytics_parameters, $analytics_id){
 }
 ```
 
+
 ## Product ID Output Filter for Paid Ads Pixels
 
 > To keep the UX simple and the setup consistent over several advertising channels, there is only one setting in the UX to adjust the product ID output. The same ID then will be used for all paid ads pixels. The standard setting is either the post ID (eg. `14`), the ID for the WooCommerce Google Feed plugin (eg. `woocommerce_gpf_14`) or the SKU (eg. `Hoodie`). In some cases you might need to use a different ID type on different channels. Maybe you're using the post ID for Google Ads, and the SKU for Facebook. In this case the following filter will adjust the output for a specific pixel. It is even possible to completely customize the ID, if necessary. 
@@ -175,12 +176,12 @@ function product_id_type_output_for_pinterest()
 }
 ```
 
+
 ## Google Analytics Product ID Output Filter
 
 > By default the plugin uses the `post ID` as identifier for Google Analytics. This filter allows you to change this to the `SKU`. 
 
 ?> The main reasons why the plugin uses the `post ID` by default are: 1) The `post ID` is more reliable. A shop owner might not add SKUs to all products, leaving the field empty. But we need to send an identifier to Google Analytics. (In the case the shop owner doesn't add a SKU to a product, we will fall back to the `post ID`.) 2) The products can be identified by the product name in Google Analytics anyway. 3) It is easier to search for a product ID in WooCommerce or in Google Analytics, so it's more practical to use the `post ID`.
-
 
 
 ```php
@@ -190,6 +191,7 @@ function wooptpm_product_id_type_for_google_analytics()
     return 'sku';
 }
 ```
+
 
 ## View Item List Trigger Filter
 
@@ -201,12 +203,13 @@ function wooptpm_product_id_type_for_google_analytics()
 
 Following settings are available:
 
-- `testMode`: It activates the test mode, which will show you a transparent overlay on each product for which `view_item_list` has been triggered. 
-- `bacgroundColor`: You can change the background color of the test overlay in case you use product images where the overlay would not be visible. This is only relevant for the test mode. 
-- `opacity`: By default the overlay is half transparent. You can adjust the opacity to a level that suits you more. This is only relevant for the test mode. 
-- `repeat`: By default the plugin resends `view_item_list` events when a visitor scrolls up and down and sees a product multiple times. You can turn this off by setting the value to `false`. Then the plugin will send only one `view_item_list` event when a product becomes visible on a page. 
-- `threshold`: This sets how much of a product card must be visible before the event is triggered. With a setting of `1`the event triggers only when 100% of the product is visible. The default is `0.8`. 
-- `timeout`: This value tells the plugin how long a product must be visible before the `view_item_list` event is sent. The timer will be reset each time the product leaves the viewport. The time must be set in milliseconds, and the default value is `1000` milliseconds (1 second).
+  - `testMode`: It activates the test mode, which will show you a transparent overlay on each product for which `view_item_list` has been triggered. 
+  - `bacgroundColor`: You can change the background color of the test overlay in case you use product images where the overlay would not be visible. This is only relevant for the test mode. 
+  - `opacity`: By default the overlay is half transparent. You can adjust the opacity to a level that suits you more. This is only relevant for the test mode. 
+  - `repeat`: By default the plugin resends `view_item_list` events when a visitor scrolls up and down and sees a product multiple times. You can turn this off by setting the value to `false`. Then the plugin will send only one `view_item_list` event when a product becomes visible on a page. 
+  - `threshold`: This sets how much of a product card must be visible before the event is triggered. With a setting of `1`the event triggers only when 100% of the product is visible. The default is `0.8`. 
+  - `timeout`: This value tells the plugin how long a product must be visible before the `view_item_list` event is sent. The timer will be reset each time the product leaves the viewport. The time must be set in milliseconds, and the default value is `1000` milliseconds (1 second).
+
 
 ```php
 add_filter('wooptpm_view_item_list_trigger_settings', 'wooptpm_view_item_list_trigger_settings');
@@ -224,11 +227,91 @@ function wooptpm_view_item_list_trigger_settings($settings)
 }
 ```
 
+
 > Another simple way to enable the view_item_list demo mode is by appending the parameter `vildemomode` to the URL you want to test. Don't forget the `?`. Example: `https://example.com/shop/?vildemomode`. This method even works on websites with caching turned on. It will use the default settings.
 
 
-![view_item_list event test mode](./_media/view-item-list-trigger-test-mode.png)
+  ![view_item_list event test mode](./_media/view-item-list-trigger-test-mode.png)
 
-![view_item_list event test mode 2](./_media/view-item-list-trigger-test-mode.gif)
+  ![view_item_list event test mode 2](./_media/view-item-list-trigger-test-mode.gif)
 
 [view_item_list event test mode 3](https://www.youtube.com/embed/rohrm5got1M?rel=0 ':include :type=iframe width=100% height=600 frameborder="0"')
+
+
+## Cross Domain Linker Settings for Google
+
+> From version 1.10.4 of the premium plugin.
+
+> Googles domain linker functionality enables two or more related sites on separate domains to be measured as one. You'll find more information about this functionality [here](https://support.google.com/searchads/answer/9165554) and [here](https://developers.google.com/gtagjs/devguide/linker).
+
+> The domain linker values need to be passed as an array to the filter. The plugin will then output all values as a JavaScript formatted domain linker script. 
+
+> You'll find a list of all possible parameters over [here](https://developers.google.com/gtagjs/devguide/linker#parameters_table).
+
+Basic example with multiple `domains`: You can list multiple string values in the domains property. When the domains property has at least one value, `gtag.js` will accept incoming domain links by default. This allows you to use the same code snippet on every domain.
+
+```php
+add_filter('wooptpm_google_linker_domains', function (){
+
+    return [
+        "domains" => [
+            'example.com',
+            'example-b.com',
+        ]
+    ];
+});
+```
+
+Example output: 
+
+```js
+gtag('set', 'linker', {
+  'domains': ['example.com', 'example-b.com']
+});
+```
+
+`decorate_forms`: If you have forms on your site that point to the destination domain, set the `decorate_forms` property to `true`.
+
+```php
+add_filter('wooptpm_google_linker_domains', function (){
+
+    return [
+        "domains" => [
+            'example.com',
+            'example-b.com',
+        ], 
+        "decorate_forms" => true,
+    ];
+});
+```
+
+`url_position`: To configure the linker parameter to appear in the URL after a fragment (`#`) instead of as a query parameter (`?`) (e.g. `https://example.com#_gl=1~abcde5~`), set the url_position parameter to fragment.
+
+```php
+add_filter('wooptpm_google_linker_domains', function (){
+
+    return [
+        "domains" => [
+            'example.com',
+            'example-b.com',
+        ], 
+        "decorate_forms" => true,
+        "url_position" => 'fragment',
+    ];
+});
+```
+
+`accept_incoming`: Once a user arrives at a page on the destination domain with a linker parameter in the URL, gtag.js needs to be configured to parse that parameter.
+
+If the destination domain has been configured to automatically link domains, it will accept linker parameters by default. No additional code is required on the destination domain.
+
+If the destination domain is not configured to automatically link domains, you can instruct the destination page to look for linker parameters. Set the `accept_incoming` property to `true`.
+
+```php
+add_filter('wooptpm_google_linker_domains', function (){
+
+    return [
+        "accept_incoming" => true
+    ];
+});
+```
