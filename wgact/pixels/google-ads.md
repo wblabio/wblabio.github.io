@@ -34,12 +34,12 @@
 
  Use the following default settings. Only change if you know what you're doing. 
 
- - Category: Purchase
- - Conversion name: Purchase
- - Value: Use different values for each conversion
- - Default value: zero
- - Count: Every
- - Attribution: Position-based
+ - Category: **Purchase**
+ - Conversion name: **Purchase**
+ - Value: **Use different values for each conversion**
+ - Default value: **zero**
+ - Count: **Every**
+ - Attribution: **Position-based**
 
   <details>
   <summary>image (Click to expand)</summary>
