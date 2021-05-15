@@ -235,8 +235,6 @@ function wooptpm_view_item_list_trigger_settings($settings)
 
   ![view_item_list event test mode 2](./_media/view-item-list-trigger-test-mode.gif)
 
-[view_item_list event test mode 3](https://www.youtube.com/embed/rohrm5got1M?rel=0 ':include :type=iframe width=100% height=600 frameborder="0"')
-
 
 ## Cross Domain Linker Settings for Google
 
@@ -250,8 +248,9 @@ function wooptpm_view_item_list_trigger_settings($settings)
 
 Basic example with multiple `domains`: You can list multiple string values in the domains property. When the domains property has at least one value, `gtag.js` will accept incoming domain links by default. This allows you to use the same code snippet on every domain.
 
+
 ```php
-add_filter('wooptpm_google_linker_domains', function (){
+add_filter('wooptpm_google_cross_domain_linker_settings', function (){
 
     return [
         "domains" => [
@@ -262,7 +261,9 @@ add_filter('wooptpm_google_linker_domains', function (){
 });
 ```
 
+
 Example output: 
+
 
 ```js
 gtag('set', 'linker', {
@@ -272,8 +273,9 @@ gtag('set', 'linker', {
 
 `decorate_forms`: If you have forms on your site that point to the destination domain, set the `decorate_forms` property to `true`.
 
+
 ```php
-add_filter('wooptpm_google_linker_domains', function (){
+add_filter('wooptpm_google_cross_domain_linker_settings', function (){
 
     return [
         "domains" => [
@@ -287,8 +289,9 @@ add_filter('wooptpm_google_linker_domains', function (){
 
 `url_position`: To configure the linker parameter to appear in the URL after a fragment (`#`) instead of as a query parameter (`?`) (e.g. `https://example.com#_gl=1~abcde5~`), set the url_position parameter to fragment.
 
+
 ```php
-add_filter('wooptpm_google_linker_domains', function (){
+add_filter('wooptpm_google_cross_domain_linker_settings', function (){
 
     return [
         "domains" => [
@@ -307,8 +310,9 @@ If the destination domain has been configured to automatically link domains, it 
 
 If the destination domain is not configured to automatically link domains, you can instruct the destination page to look for linker parameters. Set the `accept_incoming` property to `true`.
 
+
 ```php
-add_filter('wooptpm_google_linker_domains', function (){
+add_filter('wooptpm_google_cross_domain_linker_settings', function (){
 
     return [
         "accept_incoming" => true
