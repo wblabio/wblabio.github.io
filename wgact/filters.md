@@ -261,7 +261,6 @@ add_filter('wooptpm_google_cross_domain_linker_settings', function (){
 });
 ```
 
-
 Example output: 
 
 
