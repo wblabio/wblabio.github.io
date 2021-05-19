@@ -33,37 +33,114 @@ When we decide to include a feature into the Pro version rather than the Free ve
 - Complex features that generate a high volume of support requests will only be available for users of the Pro version. 
 - The subscriptions for the Pro version must cover the costs for giving support and further improving the plugin (for the Pro version and the Free version). 
 
-## Available Features
+## Features
+
+### Pixels
+
+Pixel                                             | free | pro
+---                                               | ---  | ---
+**Facebook**                                      | ✔️    | ✔️
+**Google Universal Analytics**                    | ✔️    | ✔️
+**Google Analytics 4**                            | ✔️    | ✔️
+**Google Ads**                                    | ✔️    | ✔️
+**Google Optimize**                               | ✔️    | ✔️
+**Hotjar**                                        | ✔️    | ✔️
+**Microsoft Ads**                                 |      | ✔️
+**Twitter Ads**                                   |      | ✔️
+**Pinterest Ads**                                 |      | ✔️
+
+
+### General Features
+
+The following features are implemented in all pixels (as long as the specific pixel supports that type of feature).
 
 Feature                                           | free | pro
 ---                                               | ---  | ---
-**Google Ads conversion tracking**                | ✔️    | ✔️
-**Google Ads dynamic remarketing**                | ✔️    | ✔️
-**Google Ads cart item tracking**                 | ✔️    | ✔️
-**Google Shopping: new_customer parameter**       | ✔️    | ✔️
-**Google Analytics Universal Analytics pixel**    | ✔️    | ✔️
-**Google Analytics standard e-commerce tracking** | ✔️    | ✔️
-**Google Analytics enhanced e-commerce tracking** |      | ✔️
-**Google Analytics 4 pixel**                      | ✔️    | ✔️
-**Google Optimize pixel**                         | ✔️    | ✔️
-**Facebook pixel**                                | ✔️    | ✔️
-**Facebook remarketing pixel**                    | ✔️    | ✔️
-**Facebook product microdata output**             |      | ✔️
-**Microsoft Advertising pixel**                   |      | ✔️
-**Microsoft Advertising remarketing pixel**       |      | ✔️
-**Hotjar pixel**                                  | ✔️    | ✔️
-**Twitter pixel**                                 |      | ✔️
-**Pinterest pixel**                               |      | ✔️
-**Google consent mode**                           |      | ✔️
-**Google choice of business verticals**           |      | ✔️
+**Purchase transaction ID**                       | ✔️    | ✔️
+**Purchase currency**                             | ✔️    | ✔️
 **Basic order deduplication**                     | ✔️    | ✔️
 **Advanced order deduplication**                  |      | ✔️
-**cookiebot settings for Google consent mode**    |      | ✔️
-**Choice of order total calculation**             | ✔️    | ✔️
+**Ignore orders where the payment failed**        | ✔️    | ✔️
+**Different Types of Order Total Calculation**    | ✔️    | ✔️
 **Localized by professional translators**         | ✔️    | ✔️
 **Environment checks**                            | ✔️    | ✔️
-**Ignore orders where the payment failed**        | ✔️    | ✔️
 **Event processing on lazy loaded products**      | ✔️    | ✔️
+**Compatibility modes for various JavaScript optimizers**  | ✔️    | ✔️
+**Custom conversions with shortcodes**            | ✔️    | ✔️
+**Conversion value filter for custom order total calculation** | ✔️    | ✔️
+
+
+### Google 
+
+Feature                                           | free | pro
+---                                               | ---  | ---
+**Consent mode**                                  |      | ✔️
+**Cross domain linker**                           | ✔️    | ✔️
+**Cookiebot settings for Google consent mode**    |      | ✔️
+**User ID tracking**                              |      | ✔️
+
+
+### Google Analytics
+
+Feature                                           | free | pro
+---                                               | ---  | ---
+**Standard e-commerce tracking**                  | ✔️    | ✔️
+**Enhanced e-commerce tracking**                  |      | ✔️
+**Enhanced link attribution**                     | ✔️    | ✔️
+**Product item data**                             | ✔️    | ✔️
+
+
+### Google Ads
+
+Feature                                               | free | pro
+---                                                   | ---  | ---
+**Conversion tracking**                               | ✔️    | ✔️
+**All dynamic remarketing events**                    | ✔️    | ✔️
+**Cart item tracking**                                | ✔️    | ✔️
+**Retail business vertical**                          | ✔️    | ✔️
+**All business verticals**                            |      | ✔️
+**Add multiple conversion pixels (filter)**           | ✔️    | ✔️
+**Phone conversion tracking**                         |      | ✔️
+**Purchase transaction ID**                           | ✔️    | ✔️
+**Purchase currency**                                 | ✔️    | ✔️
+
+
+### Facebook 
+
+Feature                                           | free | pro
+---                                               | ---  | ---
+**All dynamic remarketing events**                | ✔️    | ✔️
+**Facebook product microdata output**             |      | ✔️
+**Conversion API (CAPI)**                         |      | ✔️
+**Purchase transaction ID**                       | ✔️    | ✔️
+**Purchase currency**                             | ✔️    | ✔️
+
+
+### Microsoft Ads
+
+Feature                                           | free | pro
+---                                               | ---  | ---
+**Purchase event tracking**                       |      | ✔️
+**All dynamic remarketing events**                |      | ✔️
+**Purchase currency**                             | ✔️    | ✔️
+
+### Twitter Ads
+
+Feature                                           | free | pro
+---                                               | ---  | ---
+**Purchase event tracking**                       |      | ✔️
+**All dynamic remarketing events**                |      | ✔️
+**Purchase transaction ID**                       | ✔️    | ✔️
+**Purchase currency**                             | ✔️    | ✔️
+
+### Pinterest Ads
+
+Feature                                           | free | pro
+---                                               | ---  | ---
+**Purchase event tracking**                       |      | ✔️
+**All dynamic remarketing events**                |      | ✔️
+**Purchase transaction ID**                       | ✔️    | ✔️
+**Purchase currency**                             | ✔️    | ✔️
 
 
 ## Plugin Compatibility List
