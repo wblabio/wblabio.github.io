@@ -122,7 +122,7 @@ Feature                                           | free | pro
 ---                                               | ---  | ---
 **Purchase event tracking**                       |      | ✔️
 **All dynamic remarketing events**                |      | ✔️
-**Purchase currency**                             | ✔️    | ✔️
+**Purchase currency**                             |      | ✔️
 
 ### Twitter Ads
 
@@ -130,8 +130,8 @@ Feature                                           | free | pro
 ---                                               | ---  | ---
 **Purchase event tracking**                       |      | ✔️
 **All dynamic remarketing events**                |      | ✔️
-**Purchase transaction ID**                       | ✔️    | ✔️
-**Purchase currency**                             | ✔️    | ✔️
+**Purchase transaction ID**                       |      | ✔️
+**Purchase currency**                             |      | ✔️
 
 ### Pinterest Ads
 
@@ -139,8 +139,8 @@ Feature                                           | free | pro
 ---                                               | ---  | ---
 **Purchase event tracking**                       |      | ✔️
 **All dynamic remarketing events**                |      | ✔️
-**Purchase transaction ID**                       | ✔️    | ✔️
-**Purchase currency**                             | ✔️    | ✔️
+**Purchase transaction ID**                       |      | ✔️
+**Purchase currency**                             |      | ✔️
 
 
 ## Plugin Compatibility List
