@@ -112,7 +112,6 @@ Feature                                           | free | pro
 **All dynamic remarketing events**                | ✔️    | ✔️
 **Facebook product microdata output**             |      | ✔️
 **Conversion API (CAPI)**                         |      | ✔️
-**Purchase transaction ID**                       | ✔️    | ✔️
 **Purchase currency**                             | ✔️    | ✔️
 
 
