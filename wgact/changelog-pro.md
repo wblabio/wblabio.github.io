@@ -1,5 +1,15 @@
 == Changelog ==
 
+= 1.10.5 =
+
+* Tweak: parseFloat for value in Facebook and Pinterest just in case no proper input is received
+* Tweak: Added an exclusion to fix an issue with Microsoft Ads, caused by Cloudflare Rocket Loader
+* Tweak: Removed launch deal code
+* Tweak: Cleaned up some cruft
+* Tweak: Added new element selector for the intersection observer for product templates that pack the wooptpmProductId into a child > child hierarchy
+* Fix: Added default quantity if quantity field has been removed on a product page
+* Fix: Switched to treat order IDs as strings. Otherwise it would throw an error if a shop owner changes order IDs to also use letters.
+
 = 1.10.4 =
 
 * New: Added filter for Google cross domain filter setting
