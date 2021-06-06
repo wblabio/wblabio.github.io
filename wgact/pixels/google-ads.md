@@ -113,4 +113,14 @@ The URL would then look like this: `https://example.com/#google-wcc-debug`
 
 ## Enhanced Conversions
 
-> New Beta by Google
+> New Beta by Google: Enhanced conversions is a feature that can improve the accuracy of your conversion measurement. It supplements your existing conversion tags by sending hashed first party conversion data from your website in a privacy safe way.
+
+?> You might have to get into contact with your Google rep in order to activate this feature in Google Ads too. 
+
+Setup instructions: 
+
+1. Make sure you comply with the [customer data policies](https://support.google.com/adspolicy/answer/7475709)
+2. Follow the setup instruction in the instructions section of Google's [setup guide](https://support.google.com/google-ads/answer/9888145).
+3. Enable the Google Ads enhanced conversion setting within the plugin. You'll find it in the advanced section for Google.
+
+?> You'll fine more info from Google about this new feature [here](https://support.google.com/google-ads/answer/9888656), [here](https://support.google.com/google-ads/answer/9888145) and [here](https://support.google.com/adspolicy/answer/7475709).
