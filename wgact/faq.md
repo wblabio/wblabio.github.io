@@ -108,3 +108,17 @@ Unfortunately it is not possible to track 100% of all conversions. There are sev
 - JavaScript disabled in a browser.
 - Cookie Management Platforms (cookie banners) might be blocking the conversion tracking
 - Off-page payment gateways need to be configured to redirect back to the purchase confirmation page. If that's not set up correctly, or if a user interrupts the redirect, no conversion is reported. 
+
+## The dismiss button doesn't work. Why?
+
+You are using some kind of ad- or script-blocker in your browser. It blocks the script in our plugin that is responsible to dismiss the notification. 
+
+You have the following options:
+
+- Temporarily disable the ad- / script-blocker in your browser and then dismiss the notification. 
+- Whitelist our scripts in the ad- / script-blocker.
+- Switch to a different ad- / script-blocker. Not all of them block our scripts.
+
+> We recommend to whitelist our scripts because they are also required on the plugin's settings page.
+
+?> You might wonder why our scripts, but no others, get blocked by the ad- / script-blocker. The reason is that our plugin helps tracking conversions for various ad platforms. And apart of blocking ads, many ad blocking service providers also block scripts that help track visitors and conversions. Because many of those providers are unable to distinguish if the scripts are being used for the front-end or the back-end, they simply block the scripts also on the back-end, thus triggering the issue you are facing. We've spend a considerable amount of time to remove our plugin from the ad- and script-blockers. In some cases we succeeded, it others we did't.
