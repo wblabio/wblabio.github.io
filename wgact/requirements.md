@@ -25,7 +25,7 @@ That is generally the case for on-site payment gateways.
 
 Off-site payment gateways on the other hand cause problems.
 
-!> We generally recommend to avoid off-site payment gateways because they impair the conversion tracking significantly. We've seen conversion tracking drops down to 20% of what should have been measured. Such low tracking accuracy as a consequence also impairs campaign optimization. 
+!> We generally recommend to **avoid off-site payment gateways** because they impair the conversion tracking significantly. We've seen conversion tracking drops down to 20% of what should have been measured. Such low tracking accuracy as a consequence also impairs campaign optimization. 
 
 But why do off-site payment gateways impair conversion tracking so much you might think. Here are the main reasons: 
 
