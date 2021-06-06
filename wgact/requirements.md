@@ -21,14 +21,25 @@ The minimum requirement for WordPress and WooCommerce are as follows:
 
 > The plugin is 100% compatible with all payment gateways that redirect properly to the payment confirmation page after a purchase. 
 
-That is generally the case for onsite payment gateways. 
+That is generally the case for on-site payment gateways. 
 
-Offsite payment gateways need to be configured properly in order to redirect to the purchase confirmation page. 
+Off-site payment gateways on the other hand cause problems.
 
-?> We don't recommend offsite payment gateways out of two reasons:
+!> We generally recommend to avoid off-site payment gateways because they impair the conversion tracking significantly. We've seen conversion tracking drops down to 20% of what should have been measured. Such low tracking accuracy as a consequence also impairs campaign optimization. 
 
-1. They need to be configured properly in order for the conversion tracking to work  (redirect to the purchase confirmation page).
-2. Buyers may stop the redirect to the purchase confirmation page during the checkout. In that case the purchase confirmation will not be tracked. 
+But why do off-site payment gateways impair conversion tracking so much you might think. Here are the main reasons: 
+
+1. The off-site payment gateway needs to be configured properly in order to redirect to the WooCommerce purchase confirmation page after a payment. If that redirect doesn't work in the first place, no conversions can be tracked at all. (The WooCommerce purchase confirmation page is where the conversion pixels are fired.)
+2. Some off-site payment gateways would not automatically redirect back to the purchase confirmation page, but only after a click on a button by the buyer. Many buyers don't click that button. 
+3. Buyers may even stop automatic redirects to the WooCommerce purchase confirmation page after they see that the purchase has been confirmed by the payment provider.
+
+> What are off-site payment gateways? Off-site payment gateways redirect the visitor away from the shop domain to a domain belonging to the payment provider. They usually try to redirect the visitor back to the WooCommerce store once the payment has been made.
+
+> What are on-site payment gateways? On-site payment gateways keep the visitor on the shop domain for checkout and usually automatically redirect to the WooCommerce purchase confirmation page once the payment has been confirmed. The purchase confirmation page is where the conversion pixels are fired. 
+
+Here's a list of off-site payment gateways that you need to avoid:
+
+- The PayPal standard payment gateway that comes pre-installed with WooCommerce
 
 ## Caching 
 
