@@ -110,3 +110,7 @@ You can test the phone swapping by appending the following URL parameter on one 
 The URL would then look like this: `https://example.com/#google-wcc-debug`
 
 ?> You'll find more info about phone call conversion tracking on the Google support pages [here](https://support.google.com/google-ads/answer/6095883).
+
+## Enhanced Conversions
+
+> New Beta by Google
