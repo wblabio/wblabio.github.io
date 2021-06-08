@@ -82,3 +82,11 @@ Facebook in some cases is "trigger happy" and issues a warning although there is
 Example: `http://example.com?_ip=123456`
 
 In this case `_ip=123456` resembles an IP address, but in your case it might be something completely different. When you are sure it is no personal information you can safely ignore the warning. 
+
+### I am getting "Failed to load resource: net::ERR_BLOCKED_BY_CLIENT"
+
+This is usually caused by an ad-blocker in the browser. 
+
+In order to fix this temporarily disable the ad-blocker or switch to another browser that doesn't have an ad-blocker enabled. 
+
+Read more about this [here](https://stackoverflow.com/a/22403173/4688612)
