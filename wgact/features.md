@@ -164,8 +164,9 @@ Plugin                          | full | partial
 Plugin                              | full | partial
 ---                                 | ---  | ---
 **WooCommerce Brands**              | ✔️    |
-**WooCommerce Wishlists**           | ✔️    |
+**WooCommerce Composite Products**  | ✔️    |
 **WooCommerce Google Product Feed** | ✔️    |
+**WooCommerce Wishlists**           | ✔️    |
 **YITH WooCommerce Brands**         | ✔️    |
 **YITH WooCommerce Wishlist**       | ✔️    |
 **Woo Discount Rules**              | ✔️    |
