@@ -122,3 +122,7 @@ You have the following options:
 > We recommend to whitelist our scripts because they are also required on the plugin's settings page.
 
 ?> You might wonder why our scripts, but no others, get blocked by the ad- / script-blocker. The reason is that our plugin helps tracking conversions for various ad platforms. And apart of blocking ads, many ad blocking service providers also block scripts that help track visitors and conversions. Because many of those providers are unable to distinguish if the scripts are being used for the front-end or the back-end, they simply block the scripts also on the back-end, thus triggering the issue you are facing. We've spend a considerable amount of time to remove our plugin from the ad- and script-blockers. In some cases we succeeded, it others we did't.
+
+
+## Why is tracking accuracy so important?
+
