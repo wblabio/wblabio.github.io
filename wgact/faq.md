@@ -126,3 +126,12 @@ You have the following options:
 
 ## Why is tracking accuracy so important?
 
+You might ask yourself why tracking accuracy is important and why it can be low. 
+
+If for some reason only 20% of the visitors and conversions can be tracked, then paid ads platforms like Google Ads only get 20% of the data that they could get. Such a low accuracy prevents campaigns to run optimally. Actually, the difference in campaign performance can be as large as day and night. We've seen revenues and profit margins more than double in certain cases, just by fixing the visitor and conversion tracking. It doesn't mean that accurate conversion tracking makes every campaign high performing and profitable. But it will give you the best shot possible. 
+
+Here a few (of many) possible reasons why the accuracy can be low:
+
+- Using off-site payment gateways
+- Misconfigured cookie consent banners
+- Custom purchase confirmation pages that don't properly follow WooCommerce specifications
