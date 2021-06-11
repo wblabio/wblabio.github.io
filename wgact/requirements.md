@@ -40,7 +40,11 @@ But why do off-site payment gateways impair conversion tracking so much you migh
 Here's a list of off-site payment gateways that you need to avoid:
 
 - The PayPal standard payment gateway that comes pre-installed with WooCommerce
-- All payment gateways on the following [list](https://woocommerce.com/product-category/woocommerce-extensions/payment-gateways/off-site-payment-gateways/). (Maybe some of the can be configured to be used on-site. In that case you can use them.)
+- All payment gateways on the following [list](https://woocommerce.com/product-category/woocommerce-extensions/payment-gateways/off-site-payment-gateways/?aff=48267). (Maybe some of the can be configured to be used on-site. In that case you can use them.)
+
+If you are looking for a different on-site PayPal payment gateway have a look at this [list](https://docs.woocommerce.com/document/paypal-extension-comparison/?aff=48267).
+
+Also WooCommerce has categorized all on-site payment gateways and listed them [here](https://woocommerce.com/product-category/woocommerce-extensions/payment-gateways/on-site/?aff=48267). Anyone of those should work well in theory. When you are setting up a new one make sure that it keeps the visitor on-site. 
 
 ## Caching 
 
