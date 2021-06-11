@@ -1,5 +1,16 @@
 == Changelog ==
 
+= 1.10.6 =
+
+* New: Added the new Google Ads enhanced conversions feature
+* New: Added conversion accuracy warning if the PayPal standard payment gateway is active
+* New: Added support for WooCommerce composite products
+* Tweak: Lowered ajax requests on Google cid setter significantly
+* Tweak: Lowered ajax requests on Facebook session id setter significantly
+* Tweak: Switched order duplication prevention to process internal order ID (not order number)
+* Tweak: Implemented better way to reference .js and .css files
+* Tweak: Removed jquery.cookie.js dependency
+
 = 1.10.5 =
 
 * Tweak: parseFloat for value in Facebook and Pinterest just in case no proper input is received

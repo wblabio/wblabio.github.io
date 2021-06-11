@@ -1,5 +1,12 @@
 == Changelog ==
 
+= 1.10.6 =
+
+* New: Added conversion accuracy warning if the PayPal standard payment gateway is active
+* New: Added support for WooCommerce composite products
+* Tweak: Implemented better way to reference .js and .css files
+* Tweak: Removed jquery.cookie.js dependency
+
 = 1.10.5 =
 
 * Tweak: parseFloat for value in Facebook and Pinterest just in case no proper input is received
