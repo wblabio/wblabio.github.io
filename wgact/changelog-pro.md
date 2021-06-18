@@ -1,5 +1,12 @@
 == Changelog ==
 
+= 1.10.7 =
+
+* New: Added link for affiliate program
+* New: Added hook_suffix into debug info
+* Tweak: Only save fbp on server if FB CAPI is enabled, and only do it on checkout and cart pages
+* Tweak: Adjusted the $hook_suffix check in admin.php because on some installs the $hook_suffix output is buggy
+
 = 1.10.6 =
 
 * New: Added the new Google Ads enhanced conversions feature

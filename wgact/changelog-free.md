@@ -1,5 +1,10 @@
 == Changelog ==
 
+= 1.10.7 =
+
+* New: Added hook_suffix into debug info
+* Tweak: Adjusted the $hook_suffix check in admin.php because on some installs the $hook_suffix output is buggy
+
 = 1.10.6 =
 
 * New: Added conversion accuracy warning if the PayPal standard payment gateway is active
