@@ -1,5 +1,14 @@
 == Changelog ==
 
+= 1.10.8 =
+
+* Tweak: Fallback on PayPal check if option doesn't exist in the db
+* Tweak: Removed manual function override from Freemius source
+* Tweak: Added page type output on order received page
+* Tweak: Switched data wooptpmProductId output on product pages to meta tag for main product
+* Fix: Fixed ViewContent id_type variable for Facebook, GA UA and GA4
+* Fix: Added dynamic remarketing purchase script
+
 = 1.10.7 =
 
 * New: Added hook_suffix into debug info
