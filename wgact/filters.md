@@ -318,3 +318,17 @@ add_filter('wooptpm_google_cross_domain_linker_settings', function (){
     ];
 });
 ```
+
+## Custom Brand Taxonomy
+
+> From version 1.10.9 of the plugin.
+
+> If you are using your own product attribute to store brand names for products, you can use this filter to output the brand names for the pixels. The filter must return the taxonomy name for the brand attribute. Usually it is the attribute slug, prefixed with `pa_`. In this example it would be `pa_custom-brand`. Depending on how the taxonomy has been created, it also can only be the slug `custom-brand`. If one doesn't work make sure to try the other. 
+
+
+```php
+add_filter('wooptpm_custom_brand_taxonomy', function (){
+
+    return 'pa_custom-brand';
+});
+```
