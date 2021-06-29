@@ -332,3 +332,15 @@ add_filter('wooptpm_custom_brand_taxonomy', function (){
     return 'pa_custom-brand';
 });
 ```
+
+## Disable wooptpm_get_cart_items for tracking the mini cart
+
+> `wooptpm_get_cart_items` adds an additional call to the server with each page load. It helps tracking the mini cart events, like add_to_cart or remove_from_cart events. The following filter allows you to disable that call. 
+
+There are cases where you want to disable `wooptpm_get_cart_items`. For instance if you are not using the mini cart in your theme, then it is save to disable `wooptpm_get_cart_items`. 
+
+It also can happen that your hosting provider limits the amount of calls to the server and wants you to reduce them. 
+
+```php
+add_filter('wooptpm_track_mini_cart', '__return_false');
+```
