@@ -1,5 +1,15 @@
 == Changelog ==
 
+= 1.10.9 =
+
+* New: Filter for custom brand taxonomy
+* New: Added payment gateway usage and successful redirect stats to free version
+* Tweak: Refactored several elements in order to render correctly in RTL environments
+* Tweak: If product belongs to multiple categories, output them in a comma separated list for GA
+* Tweak: Automatically detect if mini cart is being used, and depending on this, enable or disable wooptpm_get_cart_items
+* Tweak: Caching cart contents in sessionStorage in order to avoid as many API calls to backend as possible
+* Fix: Fixed version check for db upgrade function in case someone has been using one of the earliest versions of the plugin
+
 = 1.10.8 =
 
 * Tweak: Fallback on PayPal check if option doesn't exist in the db
@@ -110,7 +120,7 @@
 
 * New: Filter to switch Google Analytics ID output to SKU
 * New: Process discounted order item price for GA if Woo Discount Rules is active
-* Tweak: Moved getCartItemsFromBackEnd to document.load event
+* Tweak: Moved getCartItems to document.load event
 * Tweak: Added Freemius purchase conversion
 * Tweak: Avoid number output with too many decimals
 * Tweak: More reliable method to get order from order received page
