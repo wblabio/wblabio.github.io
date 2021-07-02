@@ -141,6 +141,15 @@ Feature                                           | free | pro
 **Purchase transaction ID**                       |      | ✔️
 **Purchase currency**                             |      | ✔️
 
+### Snapchat Ads
+
+Feature                                           | free | pro
+---                                               | ---  | ---
+**Purchase event tracking**                       |      | ✔️
+**Purchase transaction ID**                       |      | ✔️
+**Purchase currency**                             |      | ✔️
+**All dynamic remarketing events**                |      | ✔️
+
 
 ## Plugin Compatibility List
 
