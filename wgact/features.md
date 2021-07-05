@@ -82,12 +82,12 @@ Feature                                           | free | pro
 
 ### Google Analytics
 
-Feature                                           | free | pro
----                                               | ---  | ---
-**Standard e-commerce tracking**                  | ✔️    | ✔️
-**Enhanced e-commerce tracking**                  |      | ✔️
-**Enhanced link attribution**                     | ✔️    | ✔️
-**Product item data**                             | ✔️    | ✔️
+Feature                                           | free | pro | info
+---                                               | ---  | --- | ---
+**Standard e-commerce tracking**                  | ✔️    | ✔️   | 
+**Enhanced e-commerce tracking**                  |      | ✔️   | [1](https://support.google.com/analytics/answer/6014841) [2](https://support.google.com/analytics/answer/6032539) [3](https://www.youtube.com/watch?v=csIzGSsEeO0)
+**Enhanced link attribution**                     | ✔️    | ✔️   | 
+**Product item data**                             | ✔️    | ✔️   | 
 
 
 ### Google Ads
