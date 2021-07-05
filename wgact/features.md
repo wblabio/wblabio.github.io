@@ -172,6 +172,7 @@ Plugin                          | full | partial
 
 Plugin                              | full | partial
 ---                                 | ---  | ---
+**CartFlows for WooCommerce**       | ✔️    |
 **WooCommerce Brands**              | ✔️    |
 **WooCommerce Composite Products**  | ✔️    |
 **WooCommerce Google Product Feed** | ✔️    |
@@ -180,6 +181,7 @@ Plugin                              | full | partial
 **YITH WooCommerce Wishlist**       | ✔️    |
 **Woo Discount Rules**              | ✔️    |
 **WP Marketing Robot Feed Manager** | ✔️    |
+
 
 
 ### JavaScript Optimization Plugins
@@ -203,6 +205,26 @@ Plugin                          | full | partial | not yet tested
 
 ?> If a plugin that you are using has not been tested yet, please put in a feature request which will allow us to prioritize it. Feature requests can be posted on our [roadmap](https://app.productstash.io/roadmaps/603366a462b3c30029854c2f/public).
 
+### Caching Plugins and Server Side Caching
+
+Plugin                          | full | partial | not yet tested
+---                             | ---  | ---     | ---
+**Autoptimize**                 | ✔️    |         | 
+**WP Rocket**                   | ✔️    |         |
+**W3 Total Cache**              | ✔️    |         | 
+**LiteSpeed Cache**             | ✔️    |         | 
+**SG Optimizer**                | ✔️    |         | 
+**WP Fastest Cache**            | ✔️    |         | 
+**Hummingbird**                 | ✔️    |         | 
+**NitroPack**                   | ✔️    |         | 
+**WP Optmimize**                | ✔️    |         | 
+**WP Super Cache**              | ✔️    |         | 
+**Cloudflare Plugin**           | ✔️    |         | 
+**WP Engine**                   | ✔️    |         | 
+**Pagely**                      | ✔️    |         | 
+**Kinsta**                      | ✔️    |         | 
+
+?> If a particular plugin or hosting provider is not on the list doesn't mean that it is not working. It only means that we haven't tested it yet. Send us a feature request [here](https://app.productstash.io/roadmaps/603366a462b3c30029854c2f/public) or to support@woopt.com 
 
 ### Cookie Consent Plugins
 
