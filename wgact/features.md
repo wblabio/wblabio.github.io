@@ -48,6 +48,7 @@ Pixel                                             | free | pro
 **Microsoft Ads**                                 |      | ✔️
 **Twitter Ads**                                   |      | ✔️
 **Pinterest Ads**                                 |      | ✔️
+**Snapchat Ads**                                  |      | ✔️
 
 
 ### General Features
