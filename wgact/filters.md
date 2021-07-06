@@ -115,6 +115,20 @@ function adjust_analytics_parameters($analytics_parameters, $analytics_id){
 }
 ```
 
+And with the following filter you can enable the debug mode in GA4. 
+
+```php
+add_filter('woopt_pm_analytics_parameters', 'adjust_analytics_parameters', 10,2);
+function adjust_analytics_parameters($analytics_parameters, $analytics_id){
+
+  if ('G-ABCDEFGHIJ' == $analytics_id) {
+    $analytics_parameters['debug_mode'] = 'true';
+  }
+
+  return $analytics_parameters;
+}
+```
+
 
 ## Product ID Output Filter for Paid Ads Pixels
 
