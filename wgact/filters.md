@@ -61,10 +61,10 @@ function filter_conversion_value($order_total, $order)
 
 ?> When setting a parameter to `true`or `false` make sure to wrap the setting into single quotes ('true' or 'false') in order to make sure that it'll be output as text and not as boolean. 
 
-The following code will remove the `anonymize_ip` parameter on all Google Analytics configs:
+The following code will remove the `anonymize_ip` parameter on all Google Universal Analytics configs:
 
 ```php
-add_filter('woopt_pm_analytics_parameters', 'adjust_analytics_parameters', 10,2);
+add_filter('wooptpm_ga_ua_parameters', 'adjust_analytics_parameters', 10,2);
 function adjust_analytics_parameters($analytics_parameters, $analytics_id){
     
     unset($analytics_parameters['anonymize_ip']);
@@ -72,10 +72,10 @@ function adjust_analytics_parameters($analytics_parameters, $analytics_id){
 }
 ```
 
-The following code will adjust the parameters only for the given Google Analytics property:
+The following code will adjust the parameters only for the given Google Universal Analytics property:
 
 ```php
-add_filter('woopt_pm_analytics_parameters', 'adjust_analytics_parameters', 10,2);
+add_filter('wooptpm_ga_ua_parameters', 'adjust_analytics_parameters', 10,2);
 function adjust_analytics_parameters($analytics_parameters, $analytics_id){
 
   if('UA-12345678-3' == $analytics_id){
@@ -96,10 +96,10 @@ function adjust_analytics_parameters($analytics_parameters, $analytics_id){
 }
 ```
 
-Or maybe, you want to set much more specific settings for `link_attribution` like specified [here](https://developers.google.com/analytics/devguides/collection/gtagjs/enhanced-link-attribution#customizing_enhanced_link_attribution):
+Or maybe, you want to set much more specific settings for `link_attribution` in your Google Universal Analytics property, like specified [here](https://developers.google.com/analytics/devguides/collection/gtagjs/enhanced-link-attribution#customizing_enhanced_link_attribution):
 
 ```php
-add_filter('woopt_pm_analytics_parameters', 'adjust_analytics_parameters', 10,2);
+add_filter('wooptpm_ga_ua_parameters', 'adjust_analytics_parameters', 10,2);
 function adjust_analytics_parameters($analytics_parameters, $analytics_id){
 
   if('UA-12345678-3' == $analytics_id){
@@ -118,7 +118,7 @@ function adjust_analytics_parameters($analytics_parameters, $analytics_id){
 And with the following filter you can enable the debug mode in GA4. 
 
 ```php
-add_filter('woopt_pm_analytics_parameters', 'adjust_analytics_parameters', 10,2);
+add_filter('wooptpm_ga_4_parameters', 'adjust_analytics_parameters', 10,2);
 function adjust_analytics_parameters($analytics_parameters, $analytics_id){
 
   if ('G-ABCDEFGHIJ' == $analytics_id) {
