@@ -1,5 +1,12 @@
 == Changelog ==
 
+= 1.10.10 =
+
+* New: Automatically flush cache of caching plugins and platforms on plugin settings changes
+* New: Report hosting platform in debug info
+* Tweak: Added new compatibility exclusions for WP Rocket
+* Tweak: Added option to filter GA4 parameters
+
 = 1.10.9 =
 
 * New: Filter for custom brand taxonomy
