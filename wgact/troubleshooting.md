@@ -90,3 +90,11 @@ This is usually caused by an ad-blocker in the browser.
 In order to fix this temporarily disable the ad-blocker or switch to another browser that doesn't have an ad-blocker enabled. 
 
 Read more about this [here](https://stackoverflow.com/a/22403173/4688612)
+
+## Incompatible Plugins
+
+### WC Custom Thank You
+
+> Plugin homepage: [link](https://wordpress.org/plugins/wc-custom-thank-you/)
+
+?> The plugin creates a custom order thankyou page for WooCommerce, but doesn't follow the WooCommerce standard for the order confirmation page. In order for conversion pixels to fire on the WooCommerce order confirmation page, every WooCommerce theme must implement the correct output for the `is_order_received_page()` conditional. This is valid for plugins that modify the purchase confirmation page too. On top of that, the WC Custom Thank You plugin has not been updated in a long time and the developer has stopped to answer support requests. 
